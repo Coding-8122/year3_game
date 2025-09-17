@@ -1,0 +1,3461 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:1 (project)"
+    message: |
+      The system is: Windows - 10.0.26100 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:1 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\hyder\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\hyder\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\hyder\\.dotnet\\tools"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\hyder\\.dotnet\\tools"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:1 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.14.19+164abd434 for .NET Framework
+      Build started 17/09/2025 21:39:42.
+      
+      Project "C:\\Users\\hyder\\OneDrive - Edinburgh Napier University\\Games Engineering\\build\\CMakeFiles\\4.1.1\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\hyder\\OneDrive - Edinburgh Napier University\\Games Engineering\\build\\CMakeFiles\\4.1.1\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Done Building Project "C:\\Users\\hyder\\OneDrive - Edinburgh Napier University\\Games Engineering\\build\\CMakeFiles\\4.1.1\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:02.29
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/build/CMakeFiles/4.1.1/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:103 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:1 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/hyder/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/hyder/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/hyder/.dotnet/tools/"
+    searched_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\hyder\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\hyder\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\hyder\\.dotnet\\tools"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\hyder\\.dotnet\\tools"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:1 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/hyder/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/hyder/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/hyder/.dotnet/tools/"
+    searched_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/lld-link.com"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/lld-link.exe"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/lld-link"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/lld-link.com"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/lld-link.exe"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/lld-link"
+      - "C:/Program Files/dotnet/lld-link.com"
+      - "C:/Program Files/dotnet/lld-link.exe"
+      - "C:/Program Files/dotnet/lld-link"
+      - "C:/Program Files/Git/cmd/lld-link.com"
+      - "C:/Program Files/Git/cmd/lld-link.exe"
+      - "C:/Program Files/Git/cmd/lld-link"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/lld-link.com"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/lld-link.exe"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/lld-link"
+      - "C:/Program Files/CMake/bin/lld-link.com"
+      - "C:/Program Files/CMake/bin/lld-link.exe"
+      - "C:/Program Files/CMake/bin/lld-link"
+      - "C:/Users/hyder/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/hyder/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/hyder/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/Users/hyder/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.com"
+      - "C:/Users/hyder/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.exe"
+      - "C:/Users/hyder/AppData/Local/Programs/Microsoft VS Code/bin/lld-link"
+      - "C:/Users/hyder/.dotnet/tools/lld-link.com"
+      - "C:/Users/hyder/.dotnet/tools/lld-link.exe"
+      - "C:/Users/hyder/.dotnet/tools/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\hyder\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\hyder\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\hyder\\.dotnet\\tools"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\hyder\\.dotnet\\tools"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:1 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/hyder/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/hyder/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/hyder/.dotnet/tools/"
+    searched_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\hyder\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\hyder\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\hyder\\.dotnet\\tools"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\hyder\\.dotnet\\tools"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:1 (project)"
+    mode: "program"
+    variable: "CMAKE_MT"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "mt"
+    candidate_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/hyder/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/hyder/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/hyder/.dotnet/tools/"
+    searched_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/mt.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/mt.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/mt"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/mt.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/mt.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/mt"
+      - "C:/Windows/System32/mt.com"
+      - "C:/Windows/System32/mt.exe"
+      - "C:/Windows/System32/mt"
+      - "C:/Windows/mt.com"
+      - "C:/Windows/mt.exe"
+      - "C:/Windows/mt"
+      - "C:/Windows/System32/wbem/mt.com"
+      - "C:/Windows/System32/wbem/mt.exe"
+      - "C:/Windows/System32/wbem/mt"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt"
+      - "C:/Windows/System32/OpenSSH/mt.com"
+      - "C:/Windows/System32/OpenSSH/mt.exe"
+      - "C:/Windows/System32/OpenSSH/mt"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/mt.com"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/mt.exe"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/mt"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/mt.com"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/mt.exe"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/mt"
+      - "C:/Program Files/dotnet/mt.com"
+      - "C:/Program Files/dotnet/mt.exe"
+      - "C:/Program Files/dotnet/mt"
+      - "C:/Program Files/Git/cmd/mt.com"
+      - "C:/Program Files/Git/cmd/mt.exe"
+      - "C:/Program Files/Git/cmd/mt"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/mt.com"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/mt.exe"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/mt"
+      - "C:/Program Files/CMake/bin/mt.com"
+      - "C:/Program Files/CMake/bin/mt.exe"
+      - "C:/Program Files/CMake/bin/mt"
+      - "C:/Users/hyder/AppData/Local/Microsoft/WindowsApps/mt.com"
+      - "C:/Users/hyder/AppData/Local/Microsoft/WindowsApps/mt.exe"
+      - "C:/Users/hyder/AppData/Local/Microsoft/WindowsApps/mt"
+      - "C:/Users/hyder/AppData/Local/Programs/Microsoft VS Code/bin/mt.com"
+      - "C:/Users/hyder/AppData/Local/Programs/Microsoft VS Code/bin/mt.exe"
+      - "C:/Users/hyder/AppData/Local/Programs/Microsoft VS Code/bin/mt"
+      - "C:/Users/hyder/.dotnet/tools/mt.com"
+      - "C:/Users/hyder/.dotnet/tools/mt.exe"
+      - "C:/Users/hyder/.dotnet/tools/mt"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\hyder\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\hyder\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\hyder\\.dotnet\\tools"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\hyder\\.dotnet\\tools"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:1 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lib"
+    candidate_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/hyder/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/hyder/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/hyder/.dotnet/tools/"
+    searched_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lib.com"
+    found: "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lib.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\hyder\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\hyder\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\hyder\\.dotnet\\tools"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\hyder\\.dotnet\\tools"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:1 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\hyder\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\hyder\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\hyder\\.dotnet\\tools"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\hyder\\.dotnet\\tools"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:1 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.14.19+164abd434 for .NET Framework
+      Build started 17/09/2025 21:39:45.
+      
+      Project "C:\\Users\\hyder\\OneDrive - Edinburgh Napier University\\Games Engineering\\build\\CMakeFiles\\4.1.1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\hyder\\OneDrive - Edinburgh Napier University\\Games Engineering\\build\\CMakeFiles\\4.1.1\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Done Building Project "C:\\Users\\hyder\\OneDrive - Edinburgh Napier University\\Games Engineering\\build\\CMakeFiles\\4.1.1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:02.33
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/build/CMakeFiles/4.1.1/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:1 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/hyder/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/hyder/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/hyder/.dotnet/tools/"
+    searched_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/lld-link.com"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/lld-link.exe"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/lld-link"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/lld-link.com"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/lld-link.exe"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/lld-link"
+      - "C:/Program Files/dotnet/lld-link.com"
+      - "C:/Program Files/dotnet/lld-link.exe"
+      - "C:/Program Files/dotnet/lld-link"
+      - "C:/Program Files/Git/cmd/lld-link.com"
+      - "C:/Program Files/Git/cmd/lld-link.exe"
+      - "C:/Program Files/Git/cmd/lld-link"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/lld-link.com"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/lld-link.exe"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/lld-link"
+      - "C:/Program Files/CMake/bin/lld-link.com"
+      - "C:/Program Files/CMake/bin/lld-link.exe"
+      - "C:/Program Files/CMake/bin/lld-link"
+      - "C:/Users/hyder/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/hyder/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/hyder/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/Users/hyder/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.com"
+      - "C:/Users/hyder/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.exe"
+      - "C:/Users/hyder/AppData/Local/Programs/Microsoft VS Code/bin/lld-link"
+      - "C:/Users/hyder/.dotnet/tools/lld-link.com"
+      - "C:/Users/hyder/.dotnet/tools/lld-link.exe"
+      - "C:/Users/hyder/.dotnet/tools/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\hyder\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\hyder\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\hyder\\.dotnet\\tools"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\hyder\\.dotnet\\tools"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineRCCompiler.cmake:40 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Platform/Windows-MSVC.cmake:574 (enable_language)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Platform/Windows-MSVC.cmake:547 (__windows_compiler_msvc_enable_rc)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Platform/Windows-MSVC-C.cmake:5 (__windows_compiler_msvc)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeCInformation.cmake:48 (include)"
+      - "CMakeLists.txt:1 (project)"
+    mode: "program"
+    variable: "CMAKE_RC_COMPILER"
+    description: "RC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "rc"
+    candidate_directories:
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/hyder/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/hyder/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/hyder/.dotnet/tools/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/CMake/sbin/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files/setup/bin/"
+      - "C:/Program Files/setup/sbin/"
+      - "C:/Program Files/setup/"
+    searched_directories:
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/rc.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/rc.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/rc"
+      - "C:/Windows/System32/rc.com"
+      - "C:/Windows/System32/rc.exe"
+      - "C:/Windows/System32/rc"
+      - "C:/Windows/rc.com"
+      - "C:/Windows/rc.exe"
+      - "C:/Windows/rc"
+      - "C:/Windows/System32/wbem/rc.com"
+      - "C:/Windows/System32/wbem/rc.exe"
+      - "C:/Windows/System32/wbem/rc"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc"
+      - "C:/Windows/System32/OpenSSH/rc.com"
+      - "C:/Windows/System32/OpenSSH/rc.exe"
+      - "C:/Windows/System32/OpenSSH/rc"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/rc.com"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/rc.exe"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/rc"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/rc.com"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/rc.exe"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/rc"
+      - "C:/Program Files/dotnet/rc.com"
+      - "C:/Program Files/dotnet/rc.exe"
+      - "C:/Program Files/dotnet/rc"
+      - "C:/Program Files/Git/cmd/rc.com"
+      - "C:/Program Files/Git/cmd/rc.exe"
+      - "C:/Program Files/Git/cmd/rc"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/rc.com"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/rc.exe"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/rc"
+      - "C:/Program Files/CMake/bin/rc.com"
+      - "C:/Program Files/CMake/bin/rc.exe"
+      - "C:/Program Files/CMake/bin/rc"
+      - "C:/Users/hyder/AppData/Local/Microsoft/WindowsApps/rc.com"
+      - "C:/Users/hyder/AppData/Local/Microsoft/WindowsApps/rc.exe"
+      - "C:/Users/hyder/AppData/Local/Microsoft/WindowsApps/rc"
+      - "C:/Users/hyder/AppData/Local/Programs/Microsoft VS Code/bin/rc.com"
+      - "C:/Users/hyder/AppData/Local/Programs/Microsoft VS Code/bin/rc.exe"
+      - "C:/Users/hyder/AppData/Local/Programs/Microsoft VS Code/bin/rc"
+      - "C:/Users/hyder/.dotnet/tools/rc.com"
+      - "C:/Users/hyder/.dotnet/tools/rc.exe"
+      - "C:/Users/hyder/.dotnet/tools/rc"
+      - "C:/Program Files/bin/rc.com"
+      - "C:/Program Files/bin/rc.exe"
+      - "C:/Program Files/bin/rc"
+      - "C:/Program Files/sbin/rc.com"
+      - "C:/Program Files/sbin/rc.exe"
+      - "C:/Program Files/sbin/rc"
+      - "C:/Program Files/rc.com"
+      - "C:/Program Files/rc.exe"
+      - "C:/Program Files/rc"
+      - "C:/Program Files (x86)/bin/rc.com"
+      - "C:/Program Files (x86)/bin/rc.exe"
+      - "C:/Program Files (x86)/bin/rc"
+      - "C:/Program Files (x86)/sbin/rc.com"
+      - "C:/Program Files (x86)/sbin/rc.exe"
+      - "C:/Program Files (x86)/sbin/rc"
+      - "C:/Program Files (x86)/rc.com"
+      - "C:/Program Files (x86)/rc.exe"
+      - "C:/Program Files (x86)/rc"
+      - "C:/Program Files/CMake/bin/rc.com"
+      - "C:/Program Files/CMake/bin/rc.exe"
+      - "C:/Program Files/CMake/bin/rc"
+      - "C:/Program Files/CMake/sbin/rc.com"
+      - "C:/Program Files/CMake/sbin/rc.exe"
+      - "C:/Program Files/CMake/sbin/rc"
+      - "C:/Program Files/CMake/rc.com"
+      - "C:/Program Files/CMake/rc.exe"
+      - "C:/Program Files/CMake/rc"
+      - "C:/Program Files/setup/bin/rc.com"
+      - "C:/Program Files/setup/bin/rc.exe"
+      - "C:/Program Files/setup/bin/rc"
+      - "C:/Program Files/setup/sbin/rc.com"
+      - "C:/Program Files/setup/sbin/rc.exe"
+      - "C:/Program Files/setup/sbin/rc"
+      - "C:/Program Files/setup/rc.com"
+      - "C:/Program Files/setup/rc.exe"
+      - "C:/Program Files/setup/rc"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\hyder\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\hyder\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\hyder\\.dotnet\\tools"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\hyder\\.dotnet\\tools"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files/setup"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files/setup"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:1 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/build/CMakeFiles/CMakeScratch/TryCompile-2cooli"
+      binary: "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/build/CMakeFiles/CMakeScratch/TryCompile-2cooli"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/build/CMakeFiles/CMakeScratch/TryCompile-2cooli'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_a5659.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.19+164abd434 for .NET Framework
+        Build started 17/09/2025 21:39:48.
+        
+        Project "C:\\Users\\hyder\\OneDrive - Edinburgh Napier University\\Games Engineering\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2cooli\\cmTC_a5659.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_a5659.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\hyder\\OneDrive - Edinburgh Napier University\\Games Engineering\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2cooli\\Debug\\".
+          Creating directory "cmTC_a5659.dir\\Debug\\cmTC_a5659.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_a5659.dir\\Debug\\cmTC_a5659.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_a5659.dir\\Debug\\cmTC_a5659.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_a5659.dir\\Debug\\\\" /Fd"cmTC_a5659.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35215 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_a5659.dir\\Debug\\\\" /Fd"cmTC_a5659.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\hyder\\OneDrive - Edinburgh Napier University\\Games Engineering\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2cooli\\Debug\\cmTC_a5659.exe" /INCREMENTAL /ILK:"cmTC_a5659.dir\\Debug\\cmTC_a5659.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/build/CMakeFiles/CMakeScratch/TryCompile-2cooli/Debug/cmTC_a5659.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/build/CMakeFiles/CMakeScratch/TryCompile-2cooli/Debug/cmTC_a5659.lib" /MACHINE:X64  /machine:x64 cmTC_a5659.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_a5659.vcxproj -> C:\\Users\\hyder\\OneDrive - Edinburgh Napier University\\Games Engineering\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2cooli\\Debug\\cmTC_a5659.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_a5659.dir\\Debug\\cmTC_a5659.tlog\\unsuccessfulbuild".
+          Touching "cmTC_a5659.dir\\Debug\\cmTC_a5659.tlog\\cmTC_a5659.lastbuildstate".
+        Done Building Project "C:\\Users\\hyder\\OneDrive - Edinburgh Napier University\\Games Engineering\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2cooli\\cmTC_a5659.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:02.26
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:1 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:1 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.44.35215.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:1 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/build/CMakeFiles/CMakeScratch/TryCompile-bgk5c5"
+      binary: "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/build/CMakeFiles/CMakeScratch/TryCompile-bgk5c5"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/build/CMakeFiles/CMakeScratch/TryCompile-bgk5c5'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_84552.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.19+164abd434 for .NET Framework
+        Build started 17/09/2025 21:39:51.
+        
+        Project "C:\\Users\\hyder\\OneDrive - Edinburgh Napier University\\Games Engineering\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bgk5c5\\cmTC_84552.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_84552.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\hyder\\OneDrive - Edinburgh Napier University\\Games Engineering\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bgk5c5\\Debug\\".
+          Creating directory "cmTC_84552.dir\\Debug\\cmTC_84552.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_84552.dir\\Debug\\cmTC_84552.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_84552.dir\\Debug\\cmTC_84552.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /GR /Fo"cmTC_84552.dir\\Debug\\\\" /Fd"cmTC_84552.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35215 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /GR /Fo"cmTC_84552.dir\\Debug\\\\" /Fd"cmTC_84552.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\hyder\\OneDrive - Edinburgh Napier University\\Games Engineering\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bgk5c5\\Debug\\cmTC_84552.exe" /INCREMENTAL /ILK:"cmTC_84552.dir\\Debug\\cmTC_84552.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/build/CMakeFiles/CMakeScratch/TryCompile-bgk5c5/Debug/cmTC_84552.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/build/CMakeFiles/CMakeScratch/TryCompile-bgk5c5/Debug/cmTC_84552.lib" /MACHINE:X64  /machine:x64 cmTC_84552.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_84552.vcxproj -> C:\\Users\\hyder\\OneDrive - Edinburgh Napier University\\Games Engineering\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bgk5c5\\Debug\\cmTC_84552.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_84552.dir\\Debug\\cmTC_84552.tlog\\unsuccessfulbuild".
+          Touching "cmTC_84552.dir\\Debug\\cmTC_84552.tlog\\cmTC_84552.lastbuildstate".
+        Done Building Project "C:\\Users\\hyder\\OneDrive - Edinburgh Napier University\\Games Engineering\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bgk5c5\\cmTC_84552.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:02.32
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:1 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:1 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.44.35215.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CheckIncludeFile.cmake:165 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CheckTypeSize.cmake:343 (check_include_file)"
+      - "lib/SFML/cmake/Config.cmake:10 (check_type_size)"
+      - "lib/SFML/CMakeLists.txt:34 (include)"
+    checks:
+      - "Looking for sys/types.h"
+    directories:
+      source: "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/build/CMakeFiles/CMakeScratch/TryCompile-avpqxm"
+      binary: "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/build/CMakeFiles/CMakeScratch/TryCompile-avpqxm"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/lib/SFML/cmake/CompilerOptionsOverride.cmake"
+    buildResult:
+      variable: "HAVE_SYS_TYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/build/CMakeFiles/CMakeScratch/TryCompile-avpqxm'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_eebfc.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.19+164abd434 for .NET Framework
+        Build started 17/09/2025 21:39:55.
+        
+        Project "C:\\Users\\hyder\\OneDrive - Edinburgh Napier University\\Games Engineering\\build\\CMakeFiles\\CMakeScratch\\TryCompile-avpqxm\\cmTC_eebfc.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_eebfc.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\hyder\\OneDrive - Edinburgh Napier University\\Games Engineering\\build\\CMakeFiles\\CMakeScratch\\TryCompile-avpqxm\\Debug\\".
+          Creating directory "cmTC_eebfc.dir\\Debug\\cmTC_eebfc.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_eebfc.dir\\Debug\\cmTC_eebfc.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_eebfc.dir\\Debug\\cmTC_eebfc.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_eebfc.dir\\Debug\\\\" /Fd"cmTC_eebfc.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\hyder\\OneDrive - Edinburgh Napier University\\Games Engineering\\build\\CMakeFiles\\CMakeScratch\\TryCompile-avpqxm\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35215 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_eebfc.dir\\Debug\\\\" /Fd"cmTC_eebfc.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\hyder\\OneDrive - Edinburgh Napier University\\Games Engineering\\build\\CMakeFiles\\CMakeScratch\\TryCompile-avpqxm\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\hyder\\OneDrive - Edinburgh Napier University\\Games Engineering\\build\\CMakeFiles\\CMakeScratch\\TryCompile-avpqxm\\Debug\\cmTC_eebfc.exe" /INCREMENTAL /ILK:"cmTC_eebfc.dir\\Debug\\cmTC_eebfc.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/build/CMakeFiles/CMakeScratch/TryCompile-avpqxm/Debug/cmTC_eebfc.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/build/CMakeFiles/CMakeScratch/TryCompile-avpqxm/Debug/cmTC_eebfc.lib" /MACHINE:X64  /machine:x64 cmTC_eebfc.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_eebfc.vcxproj -> C:\\Users\\hyder\\OneDrive - Edinburgh Napier University\\Games Engineering\\build\\CMakeFiles\\CMakeScratch\\TryCompile-avpqxm\\Debug\\cmTC_eebfc.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_eebfc.dir\\Debug\\cmTC_eebfc.tlog\\unsuccessfulbuild".
+          Touching "cmTC_eebfc.dir\\Debug\\cmTC_eebfc.tlog\\cmTC_eebfc.lastbuildstate".
+        Done Building Project "C:\\Users\\hyder\\OneDrive - Edinburgh Napier University\\Games Engineering\\build\\CMakeFiles\\CMakeScratch\\TryCompile-avpqxm\\cmTC_eebfc.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:02.28
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CheckIncludeFile.cmake:165 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CheckTypeSize.cmake:344 (check_include_file)"
+      - "lib/SFML/cmake/Config.cmake:10 (check_type_size)"
+      - "lib/SFML/CMakeLists.txt:34 (include)"
+    checks:
+      - "Looking for stdint.h"
+    directories:
+      source: "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/build/CMakeFiles/CMakeScratch/TryCompile-ejfi6k"
+      binary: "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/build/CMakeFiles/CMakeScratch/TryCompile-ejfi6k"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/lib/SFML/cmake/CompilerOptionsOverride.cmake"
+    buildResult:
+      variable: "HAVE_STDINT_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/build/CMakeFiles/CMakeScratch/TryCompile-ejfi6k'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_b2478.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.19+164abd434 for .NET Framework
+        Build started 17/09/2025 21:39:58.
+        
+        Project "C:\\Users\\hyder\\OneDrive - Edinburgh Napier University\\Games Engineering\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ejfi6k\\cmTC_b2478.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_b2478.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\hyder\\OneDrive - Edinburgh Napier University\\Games Engineering\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ejfi6k\\Debug\\".
+          Creating directory "cmTC_b2478.dir\\Debug\\cmTC_b2478.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_b2478.dir\\Debug\\cmTC_b2478.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_b2478.dir\\Debug\\cmTC_b2478.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_b2478.dir\\Debug\\\\" /Fd"cmTC_b2478.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\hyder\\OneDrive - Edinburgh Napier University\\Games Engineering\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ejfi6k\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35215 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_b2478.dir\\Debug\\\\" /Fd"cmTC_b2478.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\hyder\\OneDrive - Edinburgh Napier University\\Games Engineering\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ejfi6k\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\hyder\\OneDrive - Edinburgh Napier University\\Games Engineering\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ejfi6k\\Debug\\cmTC_b2478.exe" /INCREMENTAL /ILK:"cmTC_b2478.dir\\Debug\\cmTC_b2478.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/build/CMakeFiles/CMakeScratch/TryCompile-ejfi6k/Debug/cmTC_b2478.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/build/CMakeFiles/CMakeScratch/TryCompile-ejfi6k/Debug/cmTC_b2478.lib" /MACHINE:X64  /machine:x64 cmTC_b2478.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_b2478.vcxproj -> C:\\Users\\hyder\\OneDrive - Edinburgh Napier University\\Games Engineering\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ejfi6k\\Debug\\cmTC_b2478.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_b2478.dir\\Debug\\cmTC_b2478.tlog\\unsuccessfulbuild".
+          Touching "cmTC_b2478.dir\\Debug\\cmTC_b2478.tlog\\cmTC_b2478.lastbuildstate".
+        Done Building Project "C:\\Users\\hyder\\OneDrive - Edinburgh Napier University\\Games Engineering\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ejfi6k\\cmTC_b2478.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:02.20
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CheckIncludeFile.cmake:165 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CheckTypeSize.cmake:345 (check_include_file)"
+      - "lib/SFML/cmake/Config.cmake:10 (check_type_size)"
+      - "lib/SFML/CMakeLists.txt:34 (include)"
+    checks:
+      - "Looking for stddef.h"
+    directories:
+      source: "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/build/CMakeFiles/CMakeScratch/TryCompile-53m29j"
+      binary: "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/build/CMakeFiles/CMakeScratch/TryCompile-53m29j"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/lib/SFML/cmake/CompilerOptionsOverride.cmake"
+    buildResult:
+      variable: "HAVE_STDDEF_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/build/CMakeFiles/CMakeScratch/TryCompile-53m29j'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_c3e55.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.19+164abd434 for .NET Framework
+        Build started 17/09/2025 21:40:01.
+        
+        Project "C:\\Users\\hyder\\OneDrive - Edinburgh Napier University\\Games Engineering\\build\\CMakeFiles\\CMakeScratch\\TryCompile-53m29j\\cmTC_c3e55.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_c3e55.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\hyder\\OneDrive - Edinburgh Napier University\\Games Engineering\\build\\CMakeFiles\\CMakeScratch\\TryCompile-53m29j\\Debug\\".
+          Creating directory "cmTC_c3e55.dir\\Debug\\cmTC_c3e55.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_c3e55.dir\\Debug\\cmTC_c3e55.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_c3e55.dir\\Debug\\cmTC_c3e55.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_c3e55.dir\\Debug\\\\" /Fd"cmTC_c3e55.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\hyder\\OneDrive - Edinburgh Napier University\\Games Engineering\\build\\CMakeFiles\\CMakeScratch\\TryCompile-53m29j\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35215 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_c3e55.dir\\Debug\\\\" /Fd"cmTC_c3e55.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\hyder\\OneDrive - Edinburgh Napier University\\Games Engineering\\build\\CMakeFiles\\CMakeScratch\\TryCompile-53m29j\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\hyder\\OneDrive - Edinburgh Napier University\\Games Engineering\\build\\CMakeFiles\\CMakeScratch\\TryCompile-53m29j\\Debug\\cmTC_c3e55.exe" /INCREMENTAL /ILK:"cmTC_c3e55.dir\\Debug\\cmTC_c3e55.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/build/CMakeFiles/CMakeScratch/TryCompile-53m29j/Debug/cmTC_c3e55.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/build/CMakeFiles/CMakeScratch/TryCompile-53m29j/Debug/cmTC_c3e55.lib" /MACHINE:X64  /machine:x64 cmTC_c3e55.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_c3e55.vcxproj -> C:\\Users\\hyder\\OneDrive - Edinburgh Napier University\\Games Engineering\\build\\CMakeFiles\\CMakeScratch\\TryCompile-53m29j\\Debug\\cmTC_c3e55.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_c3e55.dir\\Debug\\cmTC_c3e55.tlog\\unsuccessfulbuild".
+          Touching "cmTC_c3e55.dir\\Debug\\cmTC_c3e55.tlog\\cmTC_c3e55.lastbuildstate".
+        Done Building Project "C:\\Users\\hyder\\OneDrive - Edinburgh Napier University\\Games Engineering\\build\\CMakeFiles\\CMakeScratch\\TryCompile-53m29j\\cmTC_c3e55.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:02.24
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CheckTypeSize.cmake:237 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CheckTypeSize.cmake:364 (__check_type_size_impl)"
+      - "lib/SFML/cmake/Config.cmake:10 (check_type_size)"
+      - "lib/SFML/CMakeLists.txt:34 (include)"
+    checks:
+      - "Check size of void*"
+    directories:
+      source: "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/build/CMakeFiles/CMakeScratch/TryCompile-wpp75q"
+      binary: "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/build/CMakeFiles/CMakeScratch/TryCompile-wpp75q"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/lib/SFML/cmake/CompilerOptionsOverride.cmake"
+    buildResult:
+      variable: "HAVE_SIZEOF_VOID_PTR"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/build/CMakeFiles/CMakeScratch/TryCompile-wpp75q'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_433c3.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.19+164abd434 for .NET Framework
+        Build started 17/09/2025 21:40:04.
+        
+        Project "C:\\Users\\hyder\\OneDrive - Edinburgh Napier University\\Games Engineering\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wpp75q\\cmTC_433c3.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_433c3.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\hyder\\OneDrive - Edinburgh Napier University\\Games Engineering\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wpp75q\\Debug\\".
+          Creating directory "cmTC_433c3.dir\\Debug\\cmTC_433c3.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_433c3.dir\\Debug\\cmTC_433c3.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_433c3.dir\\Debug\\cmTC_433c3.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_433c3.dir\\Debug\\\\" /Fd"cmTC_433c3.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\hyder\\OneDrive - Edinburgh Napier University\\Games Engineering\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wpp75q\\SIZEOF_VOID_PTR.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35215 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_433c3.dir\\Debug\\\\" /Fd"cmTC_433c3.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\hyder\\OneDrive - Edinburgh Napier University\\Games Engineering\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wpp75q\\SIZEOF_VOID_PTR.c"
+          SIZEOF_VOID_PTR.c
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\hyder\\OneDrive - Edinburgh Napier University\\Games Engineering\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wpp75q\\Debug\\cmTC_433c3.exe" /INCREMENTAL /ILK:"cmTC_433c3.dir\\Debug\\cmTC_433c3.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/build/CMakeFiles/CMakeScratch/TryCompile-wpp75q/Debug/cmTC_433c3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/build/CMakeFiles/CMakeScratch/TryCompile-wpp75q/Debug/cmTC_433c3.lib" /MACHINE:X64  /machine:x64 cmTC_433c3.dir\\Debug\\SIZEOF_VOID_PTR.obj
+          cmTC_433c3.vcxproj -> C:\\Users\\hyder\\OneDrive - Edinburgh Napier University\\Games Engineering\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wpp75q\\Debug\\cmTC_433c3.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_433c3.dir\\Debug\\cmTC_433c3.tlog\\unsuccessfulbuild".
+          Touching "cmTC_433c3.dir\\Debug\\cmTC_433c3.tlog\\cmTC_433c3.lastbuildstate".
+        Done Building Project "C:\\Users\\hyder\\OneDrive - Edinburgh Napier University\\Games Engineering\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wpp75q\\cmTC_433c3.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:02.17
+        
+      exitCode: 0
+  -
+    kind: "find-v1"
+    backtrace:
+      - "lib/SFML/cmake/Modules/FindFreetype.cmake:54 (find_path)"
+      - "lib/SFML/cmake/Macros.cmake:383 (find_package)"
+      - "lib/SFML/src/SFML/Graphics/CMakeLists.txt:126 (sfml_find_package)"
+    mode: "path"
+    variable: "FREETYPE_INCLUDE_DIR_ft2build"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ft2build.h"
+    candidate_directories:
+      - "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/lib/SFML/extlibs/headers/include/freetype2/"
+      - "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/lib/SFML/extlibs/headers/include/"
+      - "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/lib/SFML/extlibs/headers/freetype2/"
+      - "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/lib/SFML/extlibs/headers/"
+      - "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/lib/SFML/extlibs/headers/freetype2/include/freetype2/"
+      - "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/lib/SFML/extlibs/headers/freetype2/include/"
+      - "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/lib/SFML/extlibs/headers/freetype2/freetype2/"
+      - "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/lib/SFML/extlibs/headers/freetype2/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/include/freetype2/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/include/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/freetype2/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/include/freetype2/"
+      - "C:/Windows/System32/include/"
+      - "C:/Windows/System32/freetype2/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/include/freetype2/"
+      - "C:/Windows/include/"
+      - "C:/Windows/freetype2/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/include/freetype2/"
+      - "C:/Windows/System32/wbem/include/"
+      - "C:/Windows/System32/wbem/freetype2/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/include/freetype2/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/include/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/freetype2/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/include/freetype2/"
+      - "C:/Windows/System32/OpenSSH/include/"
+      - "C:/Windows/System32/OpenSSH/freetype2/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/include/freetype2/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/include/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/freetype2/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/include/freetype2/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/include/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/freetype2/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/dotnet/include/freetype2/"
+      - "C:/Program Files/dotnet/include/"
+      - "C:/Program Files/dotnet/freetype2/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Git/cmd/include/freetype2/"
+      - "C:/Program Files/Git/cmd/include/"
+      - "C:/Program Files/Git/cmd/freetype2/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/include/freetype2/"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/include/"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/freetype2/"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/"
+      - "C:/Program Files/CMake/bin/include/freetype2/"
+      - "C:/Program Files/CMake/bin/include/"
+      - "C:/Program Files/CMake/bin/freetype2/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/hyder/AppData/Local/Microsoft/WindowsApps/include/freetype2/"
+      - "C:/Users/hyder/AppData/Local/Microsoft/WindowsApps/include/"
+      - "C:/Users/hyder/AppData/Local/Microsoft/WindowsApps/freetype2/"
+      - "C:/Users/hyder/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/hyder/AppData/Local/Programs/Microsoft VS Code/bin/include/freetype2/"
+      - "C:/Users/hyder/AppData/Local/Programs/Microsoft VS Code/bin/include/"
+      - "C:/Users/hyder/AppData/Local/Programs/Microsoft VS Code/bin/freetype2/"
+      - "C:/Users/hyder/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/hyder/.dotnet/tools/include/freetype2/"
+      - "C:/Users/hyder/.dotnet/tools/include/"
+      - "C:/Users/hyder/.dotnet/tools/freetype2/"
+      - "C:/Users/hyder/.dotnet/tools/"
+      - "C:/Program Files/include/include/freetype2/"
+      - "C:/Program Files/include/include/"
+      - "C:/Program Files/include/freetype2/"
+      - "C:/Program Files/include/"
+      - "C:/Program Files/include/freetype2/"
+      - "C:/Program Files/include/"
+      - "C:/Program Files/freetype2/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/include/include/freetype2/"
+      - "C:/Program Files (x86)/include/include/"
+      - "C:/Program Files (x86)/include/freetype2/"
+      - "C:/Program Files (x86)/include/"
+      - "C:/Program Files (x86)/include/freetype2/"
+      - "C:/Program Files (x86)/include/"
+      - "C:/Program Files (x86)/freetype2/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/include/include/freetype2/"
+      - "C:/Program Files/CMake/include/include/"
+      - "C:/Program Files/CMake/include/freetype2/"
+      - "C:/Program Files/CMake/include/"
+      - "C:/Program Files/CMake/include/freetype2/"
+      - "C:/Program Files/CMake/include/"
+      - "C:/Program Files/CMake/freetype2/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files/setup/include/include/freetype2/"
+      - "C:/Program Files/setup/include/include/"
+      - "C:/Program Files/setup/include/freetype2/"
+      - "C:/Program Files/setup/include/"
+      - "C:/Program Files/setup/include/freetype2/"
+      - "C:/Program Files/setup/include/"
+      - "C:/Program Files/setup/freetype2/"
+      - "C:/Program Files/setup/"
+      - "/usr/X11R6/include/freetype2/"
+      - "/usr/X11R6/include/"
+      - "/usr/X11R6/freetype2/"
+      - "/usr/X11R6/"
+      - "/usr/local/X11R6/include/freetype2/"
+      - "/usr/local/X11R6/include/"
+      - "/usr/local/X11R6/freetype2/"
+      - "/usr/local/X11R6/"
+      - "/usr/local/X11/include/freetype2/"
+      - "/usr/local/X11/include/"
+      - "/usr/local/X11/freetype2/"
+      - "/usr/local/X11/"
+      - "/usr/freeware/include/freetype2/"
+      - "/usr/freeware/include/"
+      - "/usr/freeware/freetype2/"
+      - "/usr/freeware/"
+      - "/REGISTRY-NOTFOUND/include/freetype2/"
+      - "/REGISTRY-NOTFOUND/include/"
+      - "/REGISTRY-NOTFOUND/freetype2/"
+      - "/REGISTRY-NOTFOUND/"
+    searched_directories:
+      - "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/lib/SFML/extlibs/headers/include/freetype2/ft2build.h"
+      - "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/lib/SFML/extlibs/headers/include/ft2build.h"
+    found: "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/lib/SFML/extlibs/headers/freetype2/"
+    search_context:
+      CMAKE_INCLUDE_PATH:
+        - "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/lib/SFML/extlibs/headers"
+        - "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/lib/SFML/extlibs/headers/freetype2"
+      ENV{PATH}:
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\hyder\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\hyder\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\hyder\\.dotnet\\tools"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\hyder\\.dotnet\\tools"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files/setup"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files/setup"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "lib/SFML/cmake/Modules/FindFreetype.cmake:73 (find_path)"
+      - "lib/SFML/cmake/Macros.cmake:383 (find_package)"
+      - "lib/SFML/src/SFML/Graphics/CMakeLists.txt:126 (sfml_find_package)"
+    mode: "path"
+    variable: "FREETYPE_INCLUDE_DIR_freetype2"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "freetype/config/ftheader.h"
+      - "config/ftheader.h"
+    candidate_directories:
+      - "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/lib/SFML/extlibs/headers/include/freetype2/"
+      - "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/lib/SFML/extlibs/headers/include/"
+      - "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/lib/SFML/extlibs/headers/freetype2/"
+      - "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/lib/SFML/extlibs/headers/"
+      - "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/lib/SFML/extlibs/headers/freetype2/include/freetype2/"
+      - "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/lib/SFML/extlibs/headers/freetype2/include/"
+      - "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/lib/SFML/extlibs/headers/freetype2/freetype2/"
+      - "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/lib/SFML/extlibs/headers/freetype2/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/include/freetype2/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/include/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/freetype2/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/include/freetype2/"
+      - "C:/Windows/System32/include/"
+      - "C:/Windows/System32/freetype2/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/include/freetype2/"
+      - "C:/Windows/include/"
+      - "C:/Windows/freetype2/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/include/freetype2/"
+      - "C:/Windows/System32/wbem/include/"
+      - "C:/Windows/System32/wbem/freetype2/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/include/freetype2/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/include/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/freetype2/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/include/freetype2/"
+      - "C:/Windows/System32/OpenSSH/include/"
+      - "C:/Windows/System32/OpenSSH/freetype2/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/include/freetype2/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/include/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/freetype2/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/include/freetype2/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/include/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/freetype2/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/dotnet/include/freetype2/"
+      - "C:/Program Files/dotnet/include/"
+      - "C:/Program Files/dotnet/freetype2/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Git/cmd/include/freetype2/"
+      - "C:/Program Files/Git/cmd/include/"
+      - "C:/Program Files/Git/cmd/freetype2/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/include/freetype2/"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/include/"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/freetype2/"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/"
+      - "C:/Program Files/CMake/bin/include/freetype2/"
+      - "C:/Program Files/CMake/bin/include/"
+      - "C:/Program Files/CMake/bin/freetype2/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/hyder/AppData/Local/Microsoft/WindowsApps/include/freetype2/"
+      - "C:/Users/hyder/AppData/Local/Microsoft/WindowsApps/include/"
+      - "C:/Users/hyder/AppData/Local/Microsoft/WindowsApps/freetype2/"
+      - "C:/Users/hyder/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/hyder/AppData/Local/Programs/Microsoft VS Code/bin/include/freetype2/"
+      - "C:/Users/hyder/AppData/Local/Programs/Microsoft VS Code/bin/include/"
+      - "C:/Users/hyder/AppData/Local/Programs/Microsoft VS Code/bin/freetype2/"
+      - "C:/Users/hyder/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/hyder/.dotnet/tools/include/freetype2/"
+      - "C:/Users/hyder/.dotnet/tools/include/"
+      - "C:/Users/hyder/.dotnet/tools/freetype2/"
+      - "C:/Users/hyder/.dotnet/tools/"
+      - "C:/Program Files/include/include/freetype2/"
+      - "C:/Program Files/include/include/"
+      - "C:/Program Files/include/freetype2/"
+      - "C:/Program Files/include/"
+      - "C:/Program Files/include/freetype2/"
+      - "C:/Program Files/include/"
+      - "C:/Program Files/freetype2/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/include/include/freetype2/"
+      - "C:/Program Files (x86)/include/include/"
+      - "C:/Program Files (x86)/include/freetype2/"
+      - "C:/Program Files (x86)/include/"
+      - "C:/Program Files (x86)/include/freetype2/"
+      - "C:/Program Files (x86)/include/"
+      - "C:/Program Files (x86)/freetype2/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/include/include/freetype2/"
+      - "C:/Program Files/CMake/include/include/"
+      - "C:/Program Files/CMake/include/freetype2/"
+      - "C:/Program Files/CMake/include/"
+      - "C:/Program Files/CMake/include/freetype2/"
+      - "C:/Program Files/CMake/include/"
+      - "C:/Program Files/CMake/freetype2/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files/setup/include/include/freetype2/"
+      - "C:/Program Files/setup/include/include/"
+      - "C:/Program Files/setup/include/freetype2/"
+      - "C:/Program Files/setup/include/"
+      - "C:/Program Files/setup/include/freetype2/"
+      - "C:/Program Files/setup/include/"
+      - "C:/Program Files/setup/freetype2/"
+      - "C:/Program Files/setup/"
+      - "/usr/X11R6/include/freetype2/"
+      - "/usr/X11R6/include/"
+      - "/usr/X11R6/freetype2/"
+      - "/usr/X11R6/"
+      - "/usr/local/X11R6/include/freetype2/"
+      - "/usr/local/X11R6/include/"
+      - "/usr/local/X11R6/freetype2/"
+      - "/usr/local/X11R6/"
+      - "/usr/local/X11/include/freetype2/"
+      - "/usr/local/X11/include/"
+      - "/usr/local/X11/freetype2/"
+      - "/usr/local/X11/"
+      - "/usr/freeware/include/freetype2/"
+      - "/usr/freeware/include/"
+      - "/usr/freeware/freetype2/"
+      - "/usr/freeware/"
+      - "/REGISTRY-NOTFOUND/include/freetype2/"
+      - "/REGISTRY-NOTFOUND/include/"
+      - "/REGISTRY-NOTFOUND/freetype2/"
+      - "/REGISTRY-NOTFOUND/"
+    searched_directories:
+      - "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/lib/SFML/extlibs/headers/include/freetype2/freetype/config/ftheader.h"
+      - "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/lib/SFML/extlibs/headers/include/freetype/config/ftheader.h"
+      - "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/lib/SFML/extlibs/headers/freetype2/freetype/config/ftheader.h"
+      - "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/lib/SFML/extlibs/headers/freetype/config/ftheader.h"
+      - "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/lib/SFML/extlibs/headers/freetype2/include/freetype2/freetype/config/ftheader.h"
+      - "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/lib/SFML/extlibs/headers/freetype2/include/freetype/config/ftheader.h"
+      - "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/lib/SFML/extlibs/headers/freetype2/freetype2/freetype/config/ftheader.h"
+      - "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/lib/SFML/extlibs/headers/freetype2/freetype/config/ftheader.h"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/include/freetype2/freetype/config/ftheader.h"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/include/freetype/config/ftheader.h"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/freetype2/freetype/config/ftheader.h"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/freetype/config/ftheader.h"
+      - "C:/Windows/System32/include/freetype2/freetype/config/ftheader.h"
+      - "C:/Windows/System32/include/freetype/config/ftheader.h"
+      - "C:/Windows/System32/freetype2/freetype/config/ftheader.h"
+      - "C:/Windows/System32/freetype/config/ftheader.h"
+      - "C:/Windows/include/freetype2/freetype/config/ftheader.h"
+      - "C:/Windows/include/freetype/config/ftheader.h"
+      - "C:/Windows/freetype2/freetype/config/ftheader.h"
+      - "C:/Windows/freetype/config/ftheader.h"
+      - "C:/Windows/System32/wbem/include/freetype2/freetype/config/ftheader.h"
+      - "C:/Windows/System32/wbem/include/freetype/config/ftheader.h"
+      - "C:/Windows/System32/wbem/freetype2/freetype/config/ftheader.h"
+      - "C:/Windows/System32/wbem/freetype/config/ftheader.h"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/include/freetype2/freetype/config/ftheader.h"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/include/freetype/config/ftheader.h"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/freetype2/freetype/config/ftheader.h"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/freetype/config/ftheader.h"
+      - "C:/Windows/System32/OpenSSH/include/freetype2/freetype/config/ftheader.h"
+      - "C:/Windows/System32/OpenSSH/include/freetype/config/ftheader.h"
+      - "C:/Windows/System32/OpenSSH/freetype2/freetype/config/ftheader.h"
+      - "C:/Windows/System32/OpenSSH/freetype/config/ftheader.h"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/include/freetype2/freetype/config/ftheader.h"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/include/freetype/config/ftheader.h"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/freetype2/freetype/config/ftheader.h"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/freetype/config/ftheader.h"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/include/freetype2/freetype/config/ftheader.h"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/include/freetype/config/ftheader.h"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/freetype2/freetype/config/ftheader.h"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/freetype/config/ftheader.h"
+      - "C:/Program Files/dotnet/include/freetype2/freetype/config/ftheader.h"
+      - "C:/Program Files/dotnet/include/freetype/config/ftheader.h"
+      - "C:/Program Files/dotnet/freetype2/freetype/config/ftheader.h"
+      - "C:/Program Files/dotnet/freetype/config/ftheader.h"
+      - "C:/Program Files/Git/cmd/include/freetype2/freetype/config/ftheader.h"
+      - "C:/Program Files/Git/cmd/include/freetype/config/ftheader.h"
+      - "C:/Program Files/Git/cmd/freetype2/freetype/config/ftheader.h"
+      - "C:/Program Files/Git/cmd/freetype/config/ftheader.h"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/include/freetype2/freetype/config/ftheader.h"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/include/freetype/config/ftheader.h"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/freetype2/freetype/config/ftheader.h"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/freetype/config/ftheader.h"
+      - "C:/Program Files/CMake/bin/include/freetype2/freetype/config/ftheader.h"
+      - "C:/Program Files/CMake/bin/include/freetype/config/ftheader.h"
+      - "C:/Program Files/CMake/bin/freetype2/freetype/config/ftheader.h"
+      - "C:/Program Files/CMake/bin/freetype/config/ftheader.h"
+      - "C:/Users/hyder/AppData/Local/Microsoft/WindowsApps/include/freetype2/freetype/config/ftheader.h"
+      - "C:/Users/hyder/AppData/Local/Microsoft/WindowsApps/include/freetype/config/ftheader.h"
+      - "C:/Users/hyder/AppData/Local/Microsoft/WindowsApps/freetype2/freetype/config/ftheader.h"
+      - "C:/Users/hyder/AppData/Local/Microsoft/WindowsApps/freetype/config/ftheader.h"
+      - "C:/Users/hyder/AppData/Local/Programs/Microsoft VS Code/bin/include/freetype2/freetype/config/ftheader.h"
+      - "C:/Users/hyder/AppData/Local/Programs/Microsoft VS Code/bin/include/freetype/config/ftheader.h"
+      - "C:/Users/hyder/AppData/Local/Programs/Microsoft VS Code/bin/freetype2/freetype/config/ftheader.h"
+      - "C:/Users/hyder/AppData/Local/Programs/Microsoft VS Code/bin/freetype/config/ftheader.h"
+      - "C:/Users/hyder/.dotnet/tools/include/freetype2/freetype/config/ftheader.h"
+      - "C:/Users/hyder/.dotnet/tools/include/freetype/config/ftheader.h"
+      - "C:/Users/hyder/.dotnet/tools/freetype2/freetype/config/ftheader.h"
+      - "C:/Users/hyder/.dotnet/tools/freetype/config/ftheader.h"
+      - "C:/Program Files/include/include/freetype2/freetype/config/ftheader.h"
+      - "C:/Program Files/include/include/freetype/config/ftheader.h"
+      - "C:/Program Files/include/freetype2/freetype/config/ftheader.h"
+      - "C:/Program Files/include/freetype/config/ftheader.h"
+      - "C:/Program Files/include/freetype2/freetype/config/ftheader.h"
+      - "C:/Program Files/include/freetype/config/ftheader.h"
+      - "C:/Program Files/freetype2/freetype/config/ftheader.h"
+      - "C:/Program Files/freetype/config/ftheader.h"
+      - "C:/Program Files (x86)/include/include/freetype2/freetype/config/ftheader.h"
+      - "C:/Program Files (x86)/include/include/freetype/config/ftheader.h"
+      - "C:/Program Files (x86)/include/freetype2/freetype/config/ftheader.h"
+      - "C:/Program Files (x86)/include/freetype/config/ftheader.h"
+      - "C:/Program Files (x86)/include/freetype2/freetype/config/ftheader.h"
+      - "C:/Program Files (x86)/include/freetype/config/ftheader.h"
+      - "C:/Program Files (x86)/freetype2/freetype/config/ftheader.h"
+      - "C:/Program Files (x86)/freetype/config/ftheader.h"
+      - "C:/Program Files/CMake/include/include/freetype2/freetype/config/ftheader.h"
+      - "C:/Program Files/CMake/include/include/freetype/config/ftheader.h"
+      - "C:/Program Files/CMake/include/freetype2/freetype/config/ftheader.h"
+      - "C:/Program Files/CMake/include/freetype/config/ftheader.h"
+      - "C:/Program Files/CMake/include/freetype2/freetype/config/ftheader.h"
+      - "C:/Program Files/CMake/include/freetype/config/ftheader.h"
+      - "C:/Program Files/CMake/freetype2/freetype/config/ftheader.h"
+      - "C:/Program Files/CMake/freetype/config/ftheader.h"
+      - "C:/Program Files/setup/include/include/freetype2/freetype/config/ftheader.h"
+      - "C:/Program Files/setup/include/include/freetype/config/ftheader.h"
+      - "C:/Program Files/setup/include/freetype2/freetype/config/ftheader.h"
+      - "C:/Program Files/setup/include/freetype/config/ftheader.h"
+      - "C:/Program Files/setup/include/freetype2/freetype/config/ftheader.h"
+      - "C:/Program Files/setup/include/freetype/config/ftheader.h"
+      - "C:/Program Files/setup/freetype2/freetype/config/ftheader.h"
+      - "C:/Program Files/setup/freetype/config/ftheader.h"
+      - "/usr/X11R6/include/freetype2/freetype/config/ftheader.h"
+      - "/usr/X11R6/include/freetype/config/ftheader.h"
+      - "/usr/X11R6/freetype2/freetype/config/ftheader.h"
+      - "/usr/X11R6/freetype/config/ftheader.h"
+      - "/usr/local/X11R6/include/freetype2/freetype/config/ftheader.h"
+      - "/usr/local/X11R6/include/freetype/config/ftheader.h"
+      - "/usr/local/X11R6/freetype2/freetype/config/ftheader.h"
+      - "/usr/local/X11R6/freetype/config/ftheader.h"
+      - "/usr/local/X11/include/freetype2/freetype/config/ftheader.h"
+      - "/usr/local/X11/include/freetype/config/ftheader.h"
+      - "/usr/local/X11/freetype2/freetype/config/ftheader.h"
+      - "/usr/local/X11/freetype/config/ftheader.h"
+      - "/usr/freeware/include/freetype2/freetype/config/ftheader.h"
+      - "/usr/freeware/include/freetype/config/ftheader.h"
+      - "/usr/freeware/freetype2/freetype/config/ftheader.h"
+      - "/usr/freeware/freetype/config/ftheader.h"
+      - "/REGISTRY-NOTFOUND/include/freetype2/freetype/config/ftheader.h"
+      - "/REGISTRY-NOTFOUND/include/freetype/config/ftheader.h"
+      - "/REGISTRY-NOTFOUND/freetype2/freetype/config/ftheader.h"
+      - "/REGISTRY-NOTFOUND/freetype/config/ftheader.h"
+      - "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/lib/SFML/extlibs/headers/include/freetype2/config/ftheader.h"
+      - "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/lib/SFML/extlibs/headers/include/config/ftheader.h"
+    found: "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/lib/SFML/extlibs/headers/freetype2/"
+    search_context:
+      CMAKE_INCLUDE_PATH:
+        - "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/lib/SFML/extlibs/headers"
+        - "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/lib/SFML/extlibs/headers/freetype2"
+      ENV{PATH}:
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\hyder\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\hyder\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\hyder\\.dotnet\\tools"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\hyder\\.dotnet\\tools"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files/setup"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files/setup"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "lib/SFML/cmake/Modules/FindFreetype.cmake:94 (find_library)"
+      - "lib/SFML/cmake/Macros.cmake:383 (find_package)"
+      - "lib/SFML/src/SFML/Graphics/CMakeLists.txt:126 (sfml_find_package)"
+    mode: "library"
+    variable: "FREETYPE_LIBRARY"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "freetype"
+      - "libfreetype"
+      - "freetype219"
+    candidate_directories:
+      - "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/lib/SFML/extlibs/libs-msvc-universal/x64/lib/"
+      - "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/lib/SFML/extlibs/libs-msvc-universal/x64/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lib/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/lib/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/lib/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/lib/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lib/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/lib/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/lib/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/lib/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/dotnet/lib/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Git/cmd/lib/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/lib/"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/"
+      - "C:/Program Files/CMake/bin/lib/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/hyder/AppData/Local/Microsoft/WindowsApps/lib/"
+      - "C:/Users/hyder/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/hyder/AppData/Local/Programs/Microsoft VS Code/bin/lib/"
+      - "C:/Users/hyder/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/hyder/.dotnet/tools/lib/"
+      - "C:/Users/hyder/.dotnet/tools/"
+      - "C:/Program Files/lib/lib/"
+      - "C:/Program Files/lib/"
+      - "C:/Program Files/lib/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/lib/lib/"
+      - "C:/Program Files (x86)/lib/"
+      - "C:/Program Files (x86)/lib/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/lib/lib/"
+      - "C:/Program Files/CMake/lib/"
+      - "C:/Program Files/CMake/lib/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files/setup/lib/lib/"
+      - "C:/Program Files/setup/lib/"
+      - "C:/Program Files/setup/lib/"
+      - "C:/Program Files/setup/"
+      - "C:/Program Files/setup/bin/lib/"
+      - "C:/Program Files/setup/bin/"
+      - "/bin/lib/"
+      - "/bin/"
+      - "/usr/X11R6/lib/"
+      - "/usr/X11R6/"
+      - "/usr/local/X11R6/lib/"
+      - "/usr/local/X11R6/"
+      - "/usr/local/X11/lib/"
+      - "/usr/local/X11/"
+      - "/usr/freeware/lib/"
+      - "/usr/freeware/"
+      - "/REGISTRY-NOTFOUND/lib/"
+      - "/REGISTRY-NOTFOUND/"
+    searched_directories:
+      - "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/lib/SFML/extlibs/libs-msvc-universal/x64/lib/"
+    found: "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/lib/SFML/extlibs/libs-msvc-universal/x64/freetype.lib"
+    search_context:
+      CMAKE_LIBRARY_PATH:
+        - "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/lib/SFML/extlibs/libs-msvc-universal/x64"
+      ENV{PATH}:
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\hyder\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\hyder\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\hyder\\.dotnet\\tools"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\hyder\\.dotnet\\tools"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files/setup"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files/setup"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "C:/Program Files/setup/bin"
+        - "C:/Program Files/CMake/bin"
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "lib/SFML/cmake/Modules/FindOpenAL.cmake:68 (find_path)"
+      - "lib/SFML/src/SFML/Audio/CMakeLists.txt:71 (find_package)"
+    mode: "path"
+    variable: "OPENAL_INCLUDE_DIR"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "al.h"
+    candidate_directories:
+      - "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/lib/SFML/extlibs/headers/include/AL/"
+      - "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/lib/SFML/extlibs/headers/include/OpenAL/"
+      - "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/lib/SFML/extlibs/headers/include/"
+      - "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/lib/SFML/extlibs/headers/AL/"
+      - "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/lib/SFML/extlibs/headers/OpenAL/"
+      - "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/lib/SFML/extlibs/headers/"
+      - "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/lib/SFML/extlibs/headers/AL/include/AL/"
+      - "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/lib/SFML/extlibs/headers/AL/include/OpenAL/"
+      - "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/lib/SFML/extlibs/headers/AL/include/"
+      - "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/lib/SFML/extlibs/headers/AL/AL/"
+      - "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/lib/SFML/extlibs/headers/AL/OpenAL/"
+      - "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/lib/SFML/extlibs/headers/AL/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/include/AL/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/include/OpenAL/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/include/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/AL/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/OpenAL/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/include/AL/"
+      - "C:/Windows/System32/include/OpenAL/"
+      - "C:/Windows/System32/include/"
+      - "C:/Windows/System32/AL/"
+      - "C:/Windows/System32/OpenAL/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/include/AL/"
+      - "C:/Windows/include/OpenAL/"
+      - "C:/Windows/include/"
+      - "C:/Windows/AL/"
+      - "C:/Windows/OpenAL/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/include/AL/"
+      - "C:/Windows/System32/wbem/include/OpenAL/"
+      - "C:/Windows/System32/wbem/include/"
+      - "C:/Windows/System32/wbem/AL/"
+      - "C:/Windows/System32/wbem/OpenAL/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/include/AL/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/include/OpenAL/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/include/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/AL/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/OpenAL/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/include/AL/"
+      - "C:/Windows/System32/OpenSSH/include/OpenAL/"
+      - "C:/Windows/System32/OpenSSH/include/"
+      - "C:/Windows/System32/OpenSSH/AL/"
+      - "C:/Windows/System32/OpenSSH/OpenAL/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/include/AL/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/include/OpenAL/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/include/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/AL/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/OpenAL/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/include/AL/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/include/OpenAL/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/include/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/AL/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/OpenAL/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/dotnet/include/AL/"
+      - "C:/Program Files/dotnet/include/OpenAL/"
+      - "C:/Program Files/dotnet/include/"
+      - "C:/Program Files/dotnet/AL/"
+      - "C:/Program Files/dotnet/OpenAL/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Git/cmd/include/AL/"
+      - "C:/Program Files/Git/cmd/include/OpenAL/"
+      - "C:/Program Files/Git/cmd/include/"
+      - "C:/Program Files/Git/cmd/AL/"
+      - "C:/Program Files/Git/cmd/OpenAL/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/include/AL/"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/include/OpenAL/"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/include/"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/AL/"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/OpenAL/"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/"
+      - "C:/Program Files/CMake/bin/include/AL/"
+      - "C:/Program Files/CMake/bin/include/OpenAL/"
+      - "C:/Program Files/CMake/bin/include/"
+      - "C:/Program Files/CMake/bin/AL/"
+      - "C:/Program Files/CMake/bin/OpenAL/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/hyder/AppData/Local/Microsoft/WindowsApps/include/AL/"
+      - "C:/Users/hyder/AppData/Local/Microsoft/WindowsApps/include/OpenAL/"
+      - "C:/Users/hyder/AppData/Local/Microsoft/WindowsApps/include/"
+      - "C:/Users/hyder/AppData/Local/Microsoft/WindowsApps/AL/"
+      - "C:/Users/hyder/AppData/Local/Microsoft/WindowsApps/OpenAL/"
+      - "C:/Users/hyder/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/hyder/AppData/Local/Programs/Microsoft VS Code/bin/include/AL/"
+      - "C:/Users/hyder/AppData/Local/Programs/Microsoft VS Code/bin/include/OpenAL/"
+      - "C:/Users/hyder/AppData/Local/Programs/Microsoft VS Code/bin/include/"
+      - "C:/Users/hyder/AppData/Local/Programs/Microsoft VS Code/bin/AL/"
+      - "C:/Users/hyder/AppData/Local/Programs/Microsoft VS Code/bin/OpenAL/"
+      - "C:/Users/hyder/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/hyder/.dotnet/tools/include/AL/"
+      - "C:/Users/hyder/.dotnet/tools/include/OpenAL/"
+      - "C:/Users/hyder/.dotnet/tools/include/"
+      - "C:/Users/hyder/.dotnet/tools/AL/"
+      - "C:/Users/hyder/.dotnet/tools/OpenAL/"
+      - "C:/Users/hyder/.dotnet/tools/"
+      - "C:/Program Files/include/include/AL/"
+      - "C:/Program Files/include/include/OpenAL/"
+      - "C:/Program Files/include/include/"
+      - "C:/Program Files/include/AL/"
+      - "C:/Program Files/include/OpenAL/"
+      - "C:/Program Files/include/"
+      - "C:/Program Files/include/AL/"
+      - "C:/Program Files/include/OpenAL/"
+      - "C:/Program Files/include/"
+      - "C:/Program Files/AL/"
+      - "C:/Program Files/OpenAL/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/include/include/AL/"
+      - "C:/Program Files (x86)/include/include/OpenAL/"
+      - "C:/Program Files (x86)/include/include/"
+      - "C:/Program Files (x86)/include/AL/"
+      - "C:/Program Files (x86)/include/OpenAL/"
+      - "C:/Program Files (x86)/include/"
+      - "C:/Program Files (x86)/include/AL/"
+      - "C:/Program Files (x86)/include/OpenAL/"
+      - "C:/Program Files (x86)/include/"
+      - "C:/Program Files (x86)/AL/"
+      - "C:/Program Files (x86)/OpenAL/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/include/include/AL/"
+      - "C:/Program Files/CMake/include/include/OpenAL/"
+      - "C:/Program Files/CMake/include/include/"
+      - "C:/Program Files/CMake/include/AL/"
+      - "C:/Program Files/CMake/include/OpenAL/"
+      - "C:/Program Files/CMake/include/"
+      - "C:/Program Files/CMake/include/AL/"
+      - "C:/Program Files/CMake/include/OpenAL/"
+      - "C:/Program Files/CMake/include/"
+      - "C:/Program Files/CMake/AL/"
+      - "C:/Program Files/CMake/OpenAL/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files/setup/include/include/AL/"
+      - "C:/Program Files/setup/include/include/OpenAL/"
+      - "C:/Program Files/setup/include/include/"
+      - "C:/Program Files/setup/include/AL/"
+      - "C:/Program Files/setup/include/OpenAL/"
+      - "C:/Program Files/setup/include/"
+      - "C:/Program Files/setup/include/AL/"
+      - "C:/Program Files/setup/include/OpenAL/"
+      - "C:/Program Files/setup/include/"
+      - "C:/Program Files/setup/AL/"
+      - "C:/Program Files/setup/OpenAL/"
+      - "C:/Program Files/setup/"
+      - "C:/Users/hyder/Library/Frameworks/include/AL/"
+      - "C:/Users/hyder/Library/Frameworks/include/OpenAL/"
+      - "C:/Users/hyder/Library/Frameworks/include/"
+      - "C:/Users/hyder/Library/Frameworks/AL/"
+      - "C:/Users/hyder/Library/Frameworks/OpenAL/"
+      - "C:/Users/hyder/Library/Frameworks/"
+      - "/Library/Frameworks/include/AL/"
+      - "/Library/Frameworks/include/OpenAL/"
+      - "/Library/Frameworks/include/"
+      - "/Library/Frameworks/AL/"
+      - "/Library/Frameworks/OpenAL/"
+      - "/Library/Frameworks/"
+      - "/opt/include/AL/"
+      - "/opt/include/OpenAL/"
+      - "/opt/include/"
+      - "/opt/AL/"
+      - "/opt/OpenAL/"
+      - "/opt/"
+      - "/REGISTRY-NOTFOUND/include/AL/"
+      - "/REGISTRY-NOTFOUND/include/OpenAL/"
+      - "/REGISTRY-NOTFOUND/include/"
+      - "/REGISTRY-NOTFOUND/AL/"
+      - "/REGISTRY-NOTFOUND/OpenAL/"
+      - "/REGISTRY-NOTFOUND/"
+    searched_directories:
+      - "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/lib/SFML/extlibs/headers/include/AL/al.h"
+      - "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/lib/SFML/extlibs/headers/include/OpenAL/al.h"
+      - "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/lib/SFML/extlibs/headers/include/al.h"
+    found: "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/lib/SFML/extlibs/headers/AL/"
+    search_context:
+      CMAKE_INCLUDE_PATH:
+        - "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/lib/SFML/extlibs/headers"
+        - "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/lib/SFML/extlibs/headers/AL"
+      ENV{PATH}:
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\hyder\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\hyder\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\hyder\\.dotnet\\tools"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\hyder\\.dotnet\\tools"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files/setup"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files/setup"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "lib/SFML/cmake/Modules/FindOpenAL.cmake:79 (find_library)"
+      - "lib/SFML/src/SFML/Audio/CMakeLists.txt:71 (find_package)"
+    mode: "library"
+    variable: "OPENAL_LIBRARY"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "OpenAL"
+      - "al"
+      - "openal"
+      - "OpenAL32"
+      - "openal32"
+    candidate_directories:
+      - "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/lib/SFML/extlibs/libs-msvc-universal/x64/libx32/"
+      - "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/lib/SFML/extlibs/libs-msvc-universal/x64/lib64/"
+      - "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/lib/SFML/extlibs/libs-msvc-universal/x64/lib/"
+      - "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/lib/SFML/extlibs/libs-msvc-universal/x64/libs64/"
+      - "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/lib/SFML/extlibs/libs-msvc-universal/x64/libs/"
+      - "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/lib/SFML/extlibs/libs-msvc-universal/x64/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/libx32/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lib64/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lib/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/libs64/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/libs/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/libx32/"
+      - "C:/Windows/System32/lib64/"
+      - "C:/Windows/System32/lib/"
+      - "C:/Windows/System32/libs64/"
+      - "C:/Windows/System32/libs/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/libx32/"
+      - "C:/Windows/lib64/"
+      - "C:/Windows/lib/"
+      - "C:/Windows/libs64/"
+      - "C:/Windows/libs/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/libx32/"
+      - "C:/Windows/System32/wbem/lib64/"
+      - "C:/Windows/System32/wbem/lib/"
+      - "C:/Windows/System32/wbem/libs64/"
+      - "C:/Windows/System32/wbem/libs/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/libx32/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lib64/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lib/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/libs64/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/libs/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/libx32/"
+      - "C:/Windows/System32/OpenSSH/lib64/"
+      - "C:/Windows/System32/OpenSSH/lib/"
+      - "C:/Windows/System32/OpenSSH/libs64/"
+      - "C:/Windows/System32/OpenSSH/libs/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/libx32/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/lib64/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/lib/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/libs64/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/libs/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/libx32/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/lib64/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/lib/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/libs64/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/libs/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/dotnet/libx32/"
+      - "C:/Program Files/dotnet/lib64/"
+      - "C:/Program Files/dotnet/lib/"
+      - "C:/Program Files/dotnet/libs64/"
+      - "C:/Program Files/dotnet/libs/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Git/cmd/libx32/"
+      - "C:/Program Files/Git/cmd/lib64/"
+      - "C:/Program Files/Git/cmd/lib/"
+      - "C:/Program Files/Git/cmd/libs64/"
+      - "C:/Program Files/Git/cmd/libs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/libx32/"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/lib64/"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/lib/"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/libs64/"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/libs/"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/"
+      - "C:/Program Files/CMake/bin/libx32/"
+      - "C:/Program Files/CMake/bin/lib64/"
+      - "C:/Program Files/CMake/bin/lib/"
+      - "C:/Program Files/CMake/bin/libs64/"
+      - "C:/Program Files/CMake/bin/libs/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/hyder/AppData/Local/Microsoft/WindowsApps/libx32/"
+      - "C:/Users/hyder/AppData/Local/Microsoft/WindowsApps/lib64/"
+      - "C:/Users/hyder/AppData/Local/Microsoft/WindowsApps/lib/"
+      - "C:/Users/hyder/AppData/Local/Microsoft/WindowsApps/libs64/"
+      - "C:/Users/hyder/AppData/Local/Microsoft/WindowsApps/libs/"
+      - "C:/Users/hyder/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/hyder/AppData/Local/Programs/Microsoft VS Code/bin/libx32/"
+      - "C:/Users/hyder/AppData/Local/Programs/Microsoft VS Code/bin/lib64/"
+      - "C:/Users/hyder/AppData/Local/Programs/Microsoft VS Code/bin/lib/"
+      - "C:/Users/hyder/AppData/Local/Programs/Microsoft VS Code/bin/libs64/"
+      - "C:/Users/hyder/AppData/Local/Programs/Microsoft VS Code/bin/libs/"
+      - "C:/Users/hyder/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/hyder/.dotnet/tools/libx32/"
+      - "C:/Users/hyder/.dotnet/tools/lib64/"
+      - "C:/Users/hyder/.dotnet/tools/lib/"
+      - "C:/Users/hyder/.dotnet/tools/libs64/"
+      - "C:/Users/hyder/.dotnet/tools/libs/"
+      - "C:/Users/hyder/.dotnet/tools/"
+      - "C:/Program Files/lib/libx32/"
+      - "C:/Program Files/lib/lib64/"
+      - "C:/Program Files/lib/lib/"
+      - "C:/Program Files/lib/libs64/"
+      - "C:/Program Files/lib/libs/"
+      - "C:/Program Files/lib/"
+      - "C:/Program Files/libx32/"
+      - "C:/Program Files/lib64/"
+      - "C:/Program Files/lib/"
+      - "C:/Program Files/libs64/"
+      - "C:/Program Files/libs/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/lib/libx32/"
+      - "C:/Program Files (x86)/lib/lib64/"
+      - "C:/Program Files (x86)/lib/lib/"
+      - "C:/Program Files (x86)/lib/libs64/"
+      - "C:/Program Files (x86)/lib/libs/"
+      - "C:/Program Files (x86)/lib/"
+      - "C:/Program Files (x86)/libx32/"
+      - "C:/Program Files (x86)/lib64/"
+      - "C:/Program Files (x86)/lib/"
+      - "C:/Program Files (x86)/libs64/"
+      - "C:/Program Files (x86)/libs/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/lib/libx32/"
+      - "C:/Program Files/CMake/lib/lib64/"
+      - "C:/Program Files/CMake/lib/lib/"
+      - "C:/Program Files/CMake/lib/libs64/"
+      - "C:/Program Files/CMake/lib/libs/"
+      - "C:/Program Files/CMake/lib/"
+      - "C:/Program Files/CMake/libx32/"
+      - "C:/Program Files/CMake/lib64/"
+      - "C:/Program Files/CMake/lib/"
+      - "C:/Program Files/CMake/libs64/"
+      - "C:/Program Files/CMake/libs/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files/setup/lib/libx32/"
+      - "C:/Program Files/setup/lib/lib64/"
+      - "C:/Program Files/setup/lib/lib/"
+      - "C:/Program Files/setup/lib/libs64/"
+      - "C:/Program Files/setup/lib/libs/"
+      - "C:/Program Files/setup/lib/"
+      - "C:/Program Files/setup/libx32/"
+      - "C:/Program Files/setup/lib64/"
+      - "C:/Program Files/setup/lib/"
+      - "C:/Program Files/setup/libs64/"
+      - "C:/Program Files/setup/libs/"
+      - "C:/Program Files/setup/"
+      - "C:/Program Files/setup/bin/libx32/"
+      - "C:/Program Files/setup/bin/lib64/"
+      - "C:/Program Files/setup/bin/lib/"
+      - "C:/Program Files/setup/bin/libs64/"
+      - "C:/Program Files/setup/bin/libs/"
+      - "C:/Program Files/setup/bin/"
+      - "/bin/libx32/"
+      - "/bin/lib64/"
+      - "/bin/lib/"
+      - "/bin/libs64/"
+      - "/bin/libs/"
+      - "/bin/"
+      - "C:/Users/hyder/Library/Frameworks/libx32/"
+      - "C:/Users/hyder/Library/Frameworks/lib64/"
+      - "C:/Users/hyder/Library/Frameworks/lib/"
+      - "C:/Users/hyder/Library/Frameworks/libs64/"
+      - "C:/Users/hyder/Library/Frameworks/libs/"
+      - "C:/Users/hyder/Library/Frameworks/"
+      - "/Library/Frameworks/libx32/"
+      - "/Library/Frameworks/lib64/"
+      - "/Library/Frameworks/lib/"
+      - "/Library/Frameworks/libs64/"
+      - "/Library/Frameworks/libs/"
+      - "/Library/Frameworks/"
+      - "/opt/libx32/"
+      - "/opt/lib64/"
+      - "/opt/lib/"
+      - "/opt/libs64/"
+      - "/opt/libs/"
+      - "/opt/"
+      - "/REGISTRY-NOTFOUND/libx32/"
+      - "/REGISTRY-NOTFOUND/lib64/"
+      - "/REGISTRY-NOTFOUND/lib/"
+      - "/REGISTRY-NOTFOUND/libs64/"
+      - "/REGISTRY-NOTFOUND/libs/"
+      - "/REGISTRY-NOTFOUND/"
+    searched_directories:
+      - "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/lib/SFML/extlibs/libs-msvc-universal/x64/libx32/"
+      - "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/lib/SFML/extlibs/libs-msvc-universal/x64/lib64/"
+      - "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/lib/SFML/extlibs/libs-msvc-universal/x64/lib/"
+      - "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/lib/SFML/extlibs/libs-msvc-universal/x64/libs64/"
+      - "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/lib/SFML/extlibs/libs-msvc-universal/x64/libs/"
+      - "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/lib/SFML/extlibs/libs-msvc-universal/x64/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/libx32/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lib64/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lib/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/libs64/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/libs/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/libx32/"
+      - "C:/Windows/System32/lib64/"
+      - "C:/Windows/System32/lib/"
+      - "C:/Windows/System32/libs64/"
+      - "C:/Windows/System32/libs/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/libx32/"
+      - "C:/Windows/lib64/"
+      - "C:/Windows/lib/"
+      - "C:/Windows/libs64/"
+      - "C:/Windows/libs/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/libx32/"
+      - "C:/Windows/System32/wbem/lib64/"
+      - "C:/Windows/System32/wbem/lib/"
+      - "C:/Windows/System32/wbem/libs64/"
+      - "C:/Windows/System32/wbem/libs/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/libx32/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lib64/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lib/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/libs64/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/libs/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/libx32/"
+      - "C:/Windows/System32/OpenSSH/lib64/"
+      - "C:/Windows/System32/OpenSSH/lib/"
+      - "C:/Windows/System32/OpenSSH/libs64/"
+      - "C:/Windows/System32/OpenSSH/libs/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/libx32/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/lib64/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/lib/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/libs64/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/libs/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/libx32/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/lib64/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/lib/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/libs64/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/libs/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/dotnet/libx32/"
+      - "C:/Program Files/dotnet/lib64/"
+      - "C:/Program Files/dotnet/lib/"
+      - "C:/Program Files/dotnet/libs64/"
+      - "C:/Program Files/dotnet/libs/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Git/cmd/libx32/"
+      - "C:/Program Files/Git/cmd/lib64/"
+      - "C:/Program Files/Git/cmd/lib/"
+      - "C:/Program Files/Git/cmd/libs64/"
+      - "C:/Program Files/Git/cmd/libs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/libx32/"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/lib64/"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/lib/"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/libs64/"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/libs/"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/"
+      - "C:/Program Files/CMake/bin/libx32/"
+      - "C:/Program Files/CMake/bin/lib64/"
+      - "C:/Program Files/CMake/bin/lib/"
+      - "C:/Program Files/CMake/bin/libs64/"
+      - "C:/Program Files/CMake/bin/libs/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/hyder/AppData/Local/Microsoft/WindowsApps/libx32/"
+      - "C:/Users/hyder/AppData/Local/Microsoft/WindowsApps/lib64/"
+      - "C:/Users/hyder/AppData/Local/Microsoft/WindowsApps/lib/"
+      - "C:/Users/hyder/AppData/Local/Microsoft/WindowsApps/libs64/"
+      - "C:/Users/hyder/AppData/Local/Microsoft/WindowsApps/libs/"
+      - "C:/Users/hyder/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/hyder/AppData/Local/Programs/Microsoft VS Code/bin/libx32/"
+      - "C:/Users/hyder/AppData/Local/Programs/Microsoft VS Code/bin/lib64/"
+      - "C:/Users/hyder/AppData/Local/Programs/Microsoft VS Code/bin/lib/"
+      - "C:/Users/hyder/AppData/Local/Programs/Microsoft VS Code/bin/libs64/"
+      - "C:/Users/hyder/AppData/Local/Programs/Microsoft VS Code/bin/libs/"
+      - "C:/Users/hyder/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/hyder/.dotnet/tools/libx32/"
+      - "C:/Users/hyder/.dotnet/tools/lib64/"
+      - "C:/Users/hyder/.dotnet/tools/lib/"
+      - "C:/Users/hyder/.dotnet/tools/libs64/"
+      - "C:/Users/hyder/.dotnet/tools/libs/"
+      - "C:/Users/hyder/.dotnet/tools/"
+      - "C:/Program Files/lib/libx32/"
+      - "C:/Program Files/lib/lib64/"
+      - "C:/Program Files/lib/lib/"
+      - "C:/Program Files/lib/libs64/"
+      - "C:/Program Files/lib/libs/"
+      - "C:/Program Files/lib/"
+      - "C:/Program Files/libx32/"
+      - "C:/Program Files/lib64/"
+      - "C:/Program Files/lib/"
+      - "C:/Program Files/libs64/"
+      - "C:/Program Files/libs/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/lib/libx32/"
+      - "C:/Program Files (x86)/lib/lib64/"
+      - "C:/Program Files (x86)/lib/lib/"
+      - "C:/Program Files (x86)/lib/libs64/"
+      - "C:/Program Files (x86)/lib/libs/"
+      - "C:/Program Files (x86)/lib/"
+      - "C:/Program Files (x86)/libx32/"
+      - "C:/Program Files (x86)/lib64/"
+      - "C:/Program Files (x86)/lib/"
+      - "C:/Program Files (x86)/libs64/"
+      - "C:/Program Files (x86)/libs/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/lib/libx32/"
+      - "C:/Program Files/CMake/lib/lib64/"
+      - "C:/Program Files/CMake/lib/lib/"
+      - "C:/Program Files/CMake/lib/libs64/"
+      - "C:/Program Files/CMake/lib/libs/"
+      - "C:/Program Files/CMake/lib/"
+      - "C:/Program Files/CMake/libx32/"
+      - "C:/Program Files/CMake/lib64/"
+      - "C:/Program Files/CMake/lib/"
+      - "C:/Program Files/CMake/libs64/"
+      - "C:/Program Files/CMake/libs/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files/setup/lib/libx32/"
+      - "C:/Program Files/setup/lib/lib64/"
+      - "C:/Program Files/setup/lib/lib/"
+      - "C:/Program Files/setup/lib/libs64/"
+      - "C:/Program Files/setup/lib/libs/"
+      - "C:/Program Files/setup/lib/"
+      - "C:/Program Files/setup/libx32/"
+      - "C:/Program Files/setup/lib64/"
+      - "C:/Program Files/setup/lib/"
+      - "C:/Program Files/setup/libs64/"
+      - "C:/Program Files/setup/libs/"
+      - "C:/Program Files/setup/"
+      - "C:/Program Files/setup/bin/libx32/"
+      - "C:/Program Files/setup/bin/lib64/"
+      - "C:/Program Files/setup/bin/lib/"
+      - "C:/Program Files/setup/bin/libs64/"
+      - "C:/Program Files/setup/bin/libs/"
+      - "C:/Program Files/setup/bin/"
+      - "/bin/libx32/"
+      - "/bin/lib64/"
+      - "/bin/lib/"
+      - "/bin/libs64/"
+      - "/bin/libs/"
+      - "/bin/"
+      - "C:/Users/hyder/Library/Frameworks/libx32/"
+      - "C:/Users/hyder/Library/Frameworks/lib64/"
+      - "C:/Users/hyder/Library/Frameworks/lib/"
+      - "C:/Users/hyder/Library/Frameworks/libs64/"
+      - "C:/Users/hyder/Library/Frameworks/libs/"
+      - "C:/Users/hyder/Library/Frameworks/"
+      - "/Library/Frameworks/libx32/"
+      - "/Library/Frameworks/lib64/"
+      - "/Library/Frameworks/lib/"
+      - "/Library/Frameworks/libs64/"
+      - "/Library/Frameworks/libs/"
+      - "/Library/Frameworks/"
+      - "/opt/libx32/"
+      - "/opt/lib64/"
+      - "/opt/lib/"
+      - "/opt/libs64/"
+      - "/opt/libs/"
+      - "/opt/"
+      - "/REGISTRY-NOTFOUND/libx32/"
+      - "/REGISTRY-NOTFOUND/lib64/"
+      - "/REGISTRY-NOTFOUND/lib/"
+      - "/REGISTRY-NOTFOUND/libs64/"
+      - "/REGISTRY-NOTFOUND/libs/"
+      - "/REGISTRY-NOTFOUND/"
+      - "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/lib/SFML/extlibs/libs-msvc-universal/x64/libx32/"
+      - "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/lib/SFML/extlibs/libs-msvc-universal/x64/lib64/"
+      - "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/lib/SFML/extlibs/libs-msvc-universal/x64/lib/"
+      - "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/lib/SFML/extlibs/libs-msvc-universal/x64/libs64/"
+      - "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/lib/SFML/extlibs/libs-msvc-universal/x64/libs/"
+      - "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/lib/SFML/extlibs/libs-msvc-universal/x64/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/libx32/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lib64/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lib/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/libs64/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/libs/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/libx32/"
+      - "C:/Windows/System32/lib64/"
+      - "C:/Windows/System32/lib/"
+      - "C:/Windows/System32/libs64/"
+      - "C:/Windows/System32/libs/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/libx32/"
+      - "C:/Windows/lib64/"
+      - "C:/Windows/lib/"
+      - "C:/Windows/libs64/"
+      - "C:/Windows/libs/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/libx32/"
+      - "C:/Windows/System32/wbem/lib64/"
+      - "C:/Windows/System32/wbem/lib/"
+      - "C:/Windows/System32/wbem/libs64/"
+      - "C:/Windows/System32/wbem/libs/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/libx32/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lib64/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lib/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/libs64/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/libs/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/libx32/"
+      - "C:/Windows/System32/OpenSSH/lib64/"
+      - "C:/Windows/System32/OpenSSH/lib/"
+      - "C:/Windows/System32/OpenSSH/libs64/"
+      - "C:/Windows/System32/OpenSSH/libs/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/libx32/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/lib64/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/lib/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/libs64/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/libs/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/libx32/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/lib64/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/lib/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/libs64/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/libs/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/dotnet/libx32/"
+      - "C:/Program Files/dotnet/lib64/"
+      - "C:/Program Files/dotnet/lib/"
+      - "C:/Program Files/dotnet/libs64/"
+      - "C:/Program Files/dotnet/libs/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Git/cmd/libx32/"
+      - "C:/Program Files/Git/cmd/lib64/"
+      - "C:/Program Files/Git/cmd/lib/"
+      - "C:/Program Files/Git/cmd/libs64/"
+      - "C:/Program Files/Git/cmd/libs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/libx32/"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/lib64/"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/lib/"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/libs64/"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/libs/"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/"
+      - "C:/Program Files/CMake/bin/libx32/"
+      - "C:/Program Files/CMake/bin/lib64/"
+      - "C:/Program Files/CMake/bin/lib/"
+      - "C:/Program Files/CMake/bin/libs64/"
+      - "C:/Program Files/CMake/bin/libs/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/hyder/AppData/Local/Microsoft/WindowsApps/libx32/"
+      - "C:/Users/hyder/AppData/Local/Microsoft/WindowsApps/lib64/"
+      - "C:/Users/hyder/AppData/Local/Microsoft/WindowsApps/lib/"
+      - "C:/Users/hyder/AppData/Local/Microsoft/WindowsApps/libs64/"
+      - "C:/Users/hyder/AppData/Local/Microsoft/WindowsApps/libs/"
+      - "C:/Users/hyder/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/hyder/AppData/Local/Programs/Microsoft VS Code/bin/libx32/"
+      - "C:/Users/hyder/AppData/Local/Programs/Microsoft VS Code/bin/lib64/"
+      - "C:/Users/hyder/AppData/Local/Programs/Microsoft VS Code/bin/lib/"
+      - "C:/Users/hyder/AppData/Local/Programs/Microsoft VS Code/bin/libs64/"
+      - "C:/Users/hyder/AppData/Local/Programs/Microsoft VS Code/bin/libs/"
+      - "C:/Users/hyder/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/hyder/.dotnet/tools/libx32/"
+      - "C:/Users/hyder/.dotnet/tools/lib64/"
+      - "C:/Users/hyder/.dotnet/tools/lib/"
+      - "C:/Users/hyder/.dotnet/tools/libs64/"
+      - "C:/Users/hyder/.dotnet/tools/libs/"
+      - "C:/Users/hyder/.dotnet/tools/"
+      - "C:/Program Files/lib/libx32/"
+      - "C:/Program Files/lib/lib64/"
+      - "C:/Program Files/lib/lib/"
+      - "C:/Program Files/lib/libs64/"
+      - "C:/Program Files/lib/libs/"
+      - "C:/Program Files/lib/"
+      - "C:/Program Files/libx32/"
+      - "C:/Program Files/lib64/"
+      - "C:/Program Files/lib/"
+      - "C:/Program Files/libs64/"
+      - "C:/Program Files/libs/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/lib/libx32/"
+      - "C:/Program Files (x86)/lib/lib64/"
+      - "C:/Program Files (x86)/lib/lib/"
+      - "C:/Program Files (x86)/lib/libs64/"
+      - "C:/Program Files (x86)/lib/libs/"
+      - "C:/Program Files (x86)/lib/"
+      - "C:/Program Files (x86)/libx32/"
+      - "C:/Program Files (x86)/lib64/"
+      - "C:/Program Files (x86)/lib/"
+      - "C:/Program Files (x86)/libs64/"
+      - "C:/Program Files (x86)/libs/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/lib/libx32/"
+      - "C:/Program Files/CMake/lib/lib64/"
+      - "C:/Program Files/CMake/lib/lib/"
+      - "C:/Program Files/CMake/lib/libs64/"
+      - "C:/Program Files/CMake/lib/libs/"
+      - "C:/Program Files/CMake/lib/"
+      - "C:/Program Files/CMake/libx32/"
+      - "C:/Program Files/CMake/lib64/"
+      - "C:/Program Files/CMake/lib/"
+      - "C:/Program Files/CMake/libs64/"
+      - "C:/Program Files/CMake/libs/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files/setup/lib/libx32/"
+      - "C:/Program Files/setup/lib/lib64/"
+      - "C:/Program Files/setup/lib/lib/"
+      - "C:/Program Files/setup/lib/libs64/"
+      - "C:/Program Files/setup/lib/libs/"
+      - "C:/Program Files/setup/lib/"
+      - "C:/Program Files/setup/libx32/"
+      - "C:/Program Files/setup/lib64/"
+      - "C:/Program Files/setup/lib/"
+      - "C:/Program Files/setup/libs64/"
+      - "C:/Program Files/setup/libs/"
+      - "C:/Program Files/setup/"
+      - "C:/Program Files/setup/bin/libx32/"
+      - "C:/Program Files/setup/bin/lib64/"
+      - "C:/Program Files/setup/bin/lib/"
+      - "C:/Program Files/setup/bin/libs64/"
+      - "C:/Program Files/setup/bin/libs/"
+      - "C:/Program Files/setup/bin/"
+      - "/bin/libx32/"
+      - "/bin/lib64/"
+      - "/bin/lib/"
+      - "/bin/libs64/"
+      - "/bin/libs/"
+      - "/bin/"
+      - "C:/Users/hyder/Library/Frameworks/libx32/"
+      - "C:/Users/hyder/Library/Frameworks/lib64/"
+      - "C:/Users/hyder/Library/Frameworks/lib/"
+      - "C:/Users/hyder/Library/Frameworks/libs64/"
+      - "C:/Users/hyder/Library/Frameworks/libs/"
+      - "C:/Users/hyder/Library/Frameworks/"
+      - "/Library/Frameworks/libx32/"
+      - "/Library/Frameworks/lib64/"
+      - "/Library/Frameworks/lib/"
+      - "/Library/Frameworks/libs64/"
+      - "/Library/Frameworks/libs/"
+      - "/Library/Frameworks/"
+      - "/opt/libx32/"
+      - "/opt/lib64/"
+      - "/opt/lib/"
+      - "/opt/libs64/"
+      - "/opt/libs/"
+      - "/opt/"
+      - "/REGISTRY-NOTFOUND/libx32/"
+      - "/REGISTRY-NOTFOUND/lib64/"
+      - "/REGISTRY-NOTFOUND/lib/"
+      - "/REGISTRY-NOTFOUND/libs64/"
+      - "/REGISTRY-NOTFOUND/libs/"
+      - "/REGISTRY-NOTFOUND/"
+      - "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/lib/SFML/extlibs/libs-msvc-universal/x64/libx32/"
+      - "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/lib/SFML/extlibs/libs-msvc-universal/x64/lib64/"
+      - "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/lib/SFML/extlibs/libs-msvc-universal/x64/lib/"
+      - "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/lib/SFML/extlibs/libs-msvc-universal/x64/libs64/"
+      - "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/lib/SFML/extlibs/libs-msvc-universal/x64/libs/"
+      - "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/lib/SFML/extlibs/libs-msvc-universal/x64/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/libx32/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lib64/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lib/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/libs64/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/libs/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/libx32/"
+      - "C:/Windows/System32/lib64/"
+      - "C:/Windows/System32/lib/"
+      - "C:/Windows/System32/libs64/"
+      - "C:/Windows/System32/libs/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/libx32/"
+      - "C:/Windows/lib64/"
+      - "C:/Windows/lib/"
+      - "C:/Windows/libs64/"
+      - "C:/Windows/libs/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/libx32/"
+      - "C:/Windows/System32/wbem/lib64/"
+      - "C:/Windows/System32/wbem/lib/"
+      - "C:/Windows/System32/wbem/libs64/"
+      - "C:/Windows/System32/wbem/libs/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/libx32/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lib64/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lib/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/libs64/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/libs/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/libx32/"
+      - "C:/Windows/System32/OpenSSH/lib64/"
+      - "C:/Windows/System32/OpenSSH/lib/"
+      - "C:/Windows/System32/OpenSSH/libs64/"
+      - "C:/Windows/System32/OpenSSH/libs/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/libx32/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/lib64/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/lib/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/libs64/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/libs/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/libx32/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/lib64/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/lib/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/libs64/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/libs/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/dotnet/libx32/"
+      - "C:/Program Files/dotnet/lib64/"
+      - "C:/Program Files/dotnet/lib/"
+      - "C:/Program Files/dotnet/libs64/"
+      - "C:/Program Files/dotnet/libs/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Git/cmd/libx32/"
+      - "C:/Program Files/Git/cmd/lib64/"
+      - "C:/Program Files/Git/cmd/lib/"
+      - "C:/Program Files/Git/cmd/libs64/"
+      - "C:/Program Files/Git/cmd/libs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/libx32/"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/lib64/"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/lib/"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/libs64/"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/libs/"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/"
+      - "C:/Program Files/CMake/bin/libx32/"
+      - "C:/Program Files/CMake/bin/lib64/"
+      - "C:/Program Files/CMake/bin/lib/"
+      - "C:/Program Files/CMake/bin/libs64/"
+      - "C:/Program Files/CMake/bin/libs/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/hyder/AppData/Local/Microsoft/WindowsApps/libx32/"
+      - "C:/Users/hyder/AppData/Local/Microsoft/WindowsApps/lib64/"
+      - "C:/Users/hyder/AppData/Local/Microsoft/WindowsApps/lib/"
+      - "C:/Users/hyder/AppData/Local/Microsoft/WindowsApps/libs64/"
+      - "C:/Users/hyder/AppData/Local/Microsoft/WindowsApps/libs/"
+      - "C:/Users/hyder/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/hyder/AppData/Local/Programs/Microsoft VS Code/bin/libx32/"
+      - "C:/Users/hyder/AppData/Local/Programs/Microsoft VS Code/bin/lib64/"
+      - "C:/Users/hyder/AppData/Local/Programs/Microsoft VS Code/bin/lib/"
+      - "C:/Users/hyder/AppData/Local/Programs/Microsoft VS Code/bin/libs64/"
+      - "C:/Users/hyder/AppData/Local/Programs/Microsoft VS Code/bin/libs/"
+      - "C:/Users/hyder/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/hyder/.dotnet/tools/libx32/"
+      - "C:/Users/hyder/.dotnet/tools/lib64/"
+      - "C:/Users/hyder/.dotnet/tools/lib/"
+      - "C:/Users/hyder/.dotnet/tools/libs64/"
+      - "C:/Users/hyder/.dotnet/tools/libs/"
+      - "C:/Users/hyder/.dotnet/tools/"
+      - "C:/Program Files/lib/libx32/"
+      - "C:/Program Files/lib/lib64/"
+      - "C:/Program Files/lib/lib/"
+      - "C:/Program Files/lib/libs64/"
+      - "C:/Program Files/lib/libs/"
+      - "C:/Program Files/lib/"
+      - "C:/Program Files/libx32/"
+      - "C:/Program Files/lib64/"
+      - "C:/Program Files/lib/"
+      - "C:/Program Files/libs64/"
+      - "C:/Program Files/libs/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/lib/libx32/"
+      - "C:/Program Files (x86)/lib/lib64/"
+      - "C:/Program Files (x86)/lib/lib/"
+      - "C:/Program Files (x86)/lib/libs64/"
+      - "C:/Program Files (x86)/lib/libs/"
+      - "C:/Program Files (x86)/lib/"
+      - "C:/Program Files (x86)/libx32/"
+      - "C:/Program Files (x86)/lib64/"
+      - "C:/Program Files (x86)/lib/"
+      - "C:/Program Files (x86)/libs64/"
+      - "C:/Program Files (x86)/libs/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/lib/libx32/"
+      - "C:/Program Files/CMake/lib/lib64/"
+      - "C:/Program Files/CMake/lib/lib/"
+      - "C:/Program Files/CMake/lib/libs64/"
+      - "C:/Program Files/CMake/lib/libs/"
+      - "C:/Program Files/CMake/lib/"
+      - "C:/Program Files/CMake/libx32/"
+      - "C:/Program Files/CMake/lib64/"
+      - "C:/Program Files/CMake/lib/"
+      - "C:/Program Files/CMake/libs64/"
+      - "C:/Program Files/CMake/libs/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files/setup/lib/libx32/"
+      - "C:/Program Files/setup/lib/lib64/"
+      - "C:/Program Files/setup/lib/lib/"
+      - "C:/Program Files/setup/lib/libs64/"
+      - "C:/Program Files/setup/lib/libs/"
+      - "C:/Program Files/setup/lib/"
+      - "C:/Program Files/setup/libx32/"
+      - "C:/Program Files/setup/lib64/"
+      - "C:/Program Files/setup/lib/"
+      - "C:/Program Files/setup/libs64/"
+      - "C:/Program Files/setup/libs/"
+      - "C:/Program Files/setup/"
+      - "C:/Program Files/setup/bin/libx32/"
+      - "C:/Program Files/setup/bin/lib64/"
+      - "C:/Program Files/setup/bin/lib/"
+      - "C:/Program Files/setup/bin/libs64/"
+      - "C:/Program Files/setup/bin/libs/"
+      - "C:/Program Files/setup/bin/"
+      - "/bin/libx32/"
+      - "/bin/lib64/"
+      - "/bin/lib/"
+      - "/bin/libs64/"
+      - "/bin/libs/"
+      - "/bin/"
+      - "C:/Users/hyder/Library/Frameworks/libx32/"
+      - "C:/Users/hyder/Library/Frameworks/lib64/"
+      - "C:/Users/hyder/Library/Frameworks/lib/"
+      - "C:/Users/hyder/Library/Frameworks/libs64/"
+      - "C:/Users/hyder/Library/Frameworks/libs/"
+      - "C:/Users/hyder/Library/Frameworks/"
+      - "/Library/Frameworks/libx32/"
+      - "/Library/Frameworks/lib64/"
+      - "/Library/Frameworks/lib/"
+      - "/Library/Frameworks/libs64/"
+      - "/Library/Frameworks/libs/"
+      - "/Library/Frameworks/"
+      - "/opt/libx32/"
+      - "/opt/lib64/"
+      - "/opt/lib/"
+      - "/opt/libs64/"
+      - "/opt/libs/"
+      - "/opt/"
+      - "/REGISTRY-NOTFOUND/libx32/"
+      - "/REGISTRY-NOTFOUND/lib64/"
+      - "/REGISTRY-NOTFOUND/lib/"
+      - "/REGISTRY-NOTFOUND/libs64/"
+      - "/REGISTRY-NOTFOUND/libs/"
+      - "/REGISTRY-NOTFOUND/"
+      - "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/lib/SFML/extlibs/libs-msvc-universal/x64/libx32/"
+      - "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/lib/SFML/extlibs/libs-msvc-universal/x64/lib64/"
+      - "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/lib/SFML/extlibs/libs-msvc-universal/x64/lib/"
+      - "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/lib/SFML/extlibs/libs-msvc-universal/x64/libs64/"
+      - "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/lib/SFML/extlibs/libs-msvc-universal/x64/libs/"
+    found: "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/lib/SFML/extlibs/libs-msvc-universal/x64/openal32.lib"
+    search_context:
+      CMAKE_LIBRARY_PATH:
+        - "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/lib/SFML/extlibs/libs-msvc-universal/x64"
+      ENV{PATH}:
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\hyder\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\hyder\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\hyder\\.dotnet\\tools"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\hyder\\.dotnet\\tools"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files/setup"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files/setup"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "C:/Program Files/setup/bin"
+        - "C:/Program Files/CMake/bin"
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "lib/SFML/cmake/Modules/FindVORBIS.cmake:10 (find_path)"
+      - "lib/SFML/cmake/Macros.cmake:383 (find_package)"
+      - "lib/SFML/src/SFML/Audio/CMakeLists.txt:72 (sfml_find_package)"
+    mode: "path"
+    variable: "OGG_INCLUDE_DIR"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ogg/ogg.h"
+    candidate_directories:
+      - "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/lib/SFML/extlibs/headers/"
+      - "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/lib/SFML/extlibs/headers/AL/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/hyder/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/hyder/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/hyder/.dotnet/tools/"
+      - "C:/Program Files/include/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/include/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/include/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files/setup/include/"
+      - "C:/Program Files/setup/"
+    found: "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/lib/SFML/extlibs/headers/"
+    search_context:
+      CMAKE_INCLUDE_PATH:
+        - "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/lib/SFML/extlibs/headers"
+        - "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/lib/SFML/extlibs/headers/AL"
+      ENV{PATH}:
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\hyder\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\hyder\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\hyder\\.dotnet\\tools"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\hyder\\.dotnet\\tools"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files/setup"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files/setup"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "lib/SFML/cmake/Modules/FindVORBIS.cmake:11 (find_path)"
+      - "lib/SFML/cmake/Macros.cmake:383 (find_package)"
+      - "lib/SFML/src/SFML/Audio/CMakeLists.txt:72 (sfml_find_package)"
+    mode: "path"
+    variable: "VORBIS_INCLUDE_DIR"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "vorbis/vorbisfile.h"
+    candidate_directories:
+      - "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/lib/SFML/extlibs/headers/"
+      - "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/lib/SFML/extlibs/headers/AL/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/hyder/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/hyder/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/hyder/.dotnet/tools/"
+      - "C:/Program Files/include/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/include/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/include/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files/setup/include/"
+      - "C:/Program Files/setup/"
+    found: "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/lib/SFML/extlibs/headers/"
+    search_context:
+      CMAKE_INCLUDE_PATH:
+        - "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/lib/SFML/extlibs/headers"
+        - "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/lib/SFML/extlibs/headers/AL"
+      ENV{PATH}:
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\hyder\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\hyder\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\hyder\\.dotnet\\tools"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\hyder\\.dotnet\\tools"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files/setup"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files/setup"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "lib/SFML/cmake/Modules/FindVORBIS.cmake:13 (find_library)"
+      - "lib/SFML/cmake/Macros.cmake:383 (find_package)"
+      - "lib/SFML/src/SFML/Audio/CMakeLists.txt:72 (sfml_find_package)"
+    mode: "library"
+    variable: "OGG_LIBRARY"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ogg"
+    candidate_directories:
+      - "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/lib/SFML/extlibs/libs-msvc-universal/x64/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/hyder/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/hyder/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/hyder/.dotnet/tools/"
+      - "C:/Program Files/lib/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/lib/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/lib/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files/setup/lib/"
+      - "C:/Program Files/setup/"
+      - "C:/Program Files/setup/bin/"
+      - "/bin/"
+    found: "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/lib/SFML/extlibs/libs-msvc-universal/x64/ogg.lib"
+    search_context:
+      CMAKE_LIBRARY_PATH:
+        - "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/lib/SFML/extlibs/libs-msvc-universal/x64"
+      ENV{PATH}:
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\hyder\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\hyder\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\hyder\\.dotnet\\tools"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\hyder\\.dotnet\\tools"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files/setup"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files/setup"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "C:/Program Files/setup/bin"
+        - "C:/Program Files/CMake/bin"
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "lib/SFML/cmake/Modules/FindVORBIS.cmake:14 (find_library)"
+      - "lib/SFML/cmake/Macros.cmake:383 (find_package)"
+      - "lib/SFML/src/SFML/Audio/CMakeLists.txt:72 (sfml_find_package)"
+    mode: "library"
+    variable: "VORBIS_LIBRARY"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "vorbis"
+    candidate_directories:
+      - "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/lib/SFML/extlibs/libs-msvc-universal/x64/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/hyder/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/hyder/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/hyder/.dotnet/tools/"
+      - "C:/Program Files/lib/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/lib/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/lib/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files/setup/lib/"
+      - "C:/Program Files/setup/"
+      - "C:/Program Files/setup/bin/"
+      - "/bin/"
+    found: "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/lib/SFML/extlibs/libs-msvc-universal/x64/vorbis.lib"
+    search_context:
+      CMAKE_LIBRARY_PATH:
+        - "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/lib/SFML/extlibs/libs-msvc-universal/x64"
+      ENV{PATH}:
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\hyder\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\hyder\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\hyder\\.dotnet\\tools"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\hyder\\.dotnet\\tools"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files/setup"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files/setup"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "C:/Program Files/setup/bin"
+        - "C:/Program Files/CMake/bin"
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "lib/SFML/cmake/Modules/FindVORBIS.cmake:16 (find_library)"
+      - "lib/SFML/cmake/Macros.cmake:383 (find_package)"
+      - "lib/SFML/src/SFML/Audio/CMakeLists.txt:72 (sfml_find_package)"
+    mode: "library"
+    variable: "VORBISFILE_LIBRARY"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "vorbisfile"
+    candidate_directories:
+      - "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/lib/SFML/extlibs/libs-msvc-universal/x64/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/hyder/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/hyder/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/hyder/.dotnet/tools/"
+      - "C:/Program Files/lib/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/lib/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/lib/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files/setup/lib/"
+      - "C:/Program Files/setup/"
+      - "C:/Program Files/setup/bin/"
+      - "/bin/"
+    found: "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/lib/SFML/extlibs/libs-msvc-universal/x64/vorbisfile.lib"
+    search_context:
+      CMAKE_LIBRARY_PATH:
+        - "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/lib/SFML/extlibs/libs-msvc-universal/x64"
+      ENV{PATH}:
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\hyder\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\hyder\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\hyder\\.dotnet\\tools"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\hyder\\.dotnet\\tools"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files/setup"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files/setup"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "C:/Program Files/setup/bin"
+        - "C:/Program Files/CMake/bin"
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "lib/SFML/cmake/Modules/FindVORBIS.cmake:17 (find_library)"
+      - "lib/SFML/cmake/Macros.cmake:383 (find_package)"
+      - "lib/SFML/src/SFML/Audio/CMakeLists.txt:72 (sfml_find_package)"
+    mode: "library"
+    variable: "VORBISENC_LIBRARY"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "vorbisenc"
+    candidate_directories:
+      - "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/lib/SFML/extlibs/libs-msvc-universal/x64/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/hyder/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/hyder/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/hyder/.dotnet/tools/"
+      - "C:/Program Files/lib/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/lib/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/lib/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files/setup/lib/"
+      - "C:/Program Files/setup/"
+      - "C:/Program Files/setup/bin/"
+      - "/bin/"
+    found: "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/lib/SFML/extlibs/libs-msvc-universal/x64/vorbisenc.lib"
+    search_context:
+      CMAKE_LIBRARY_PATH:
+        - "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/lib/SFML/extlibs/libs-msvc-universal/x64"
+      ENV{PATH}:
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\hyder\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\hyder\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\hyder\\.dotnet\\tools"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\hyder\\.dotnet\\tools"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files/setup"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files/setup"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "C:/Program Files/setup/bin"
+        - "C:/Program Files/CMake/bin"
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "lib/SFML/cmake/Modules/FindFLAC.cmake:10 (find_path)"
+      - "lib/SFML/cmake/Macros.cmake:383 (find_package)"
+      - "lib/SFML/src/SFML/Audio/CMakeLists.txt:73 (sfml_find_package)"
+    mode: "path"
+    variable: "FLAC_INCLUDE_DIR"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "FLAC/all.h"
+    candidate_directories:
+      - "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/lib/SFML/extlibs/headers/"
+      - "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/lib/SFML/extlibs/headers/AL/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/hyder/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/hyder/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/hyder/.dotnet/tools/"
+      - "C:/Program Files/include/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/include/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/include/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files/setup/include/"
+      - "C:/Program Files/setup/"
+    found: "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/lib/SFML/extlibs/headers/"
+    search_context:
+      CMAKE_INCLUDE_PATH:
+        - "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/lib/SFML/extlibs/headers"
+        - "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/lib/SFML/extlibs/headers/AL"
+      ENV{PATH}:
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\hyder\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\hyder\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\hyder\\.dotnet\\tools"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\hyder\\.dotnet\\tools"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files/setup"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files/setup"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "lib/SFML/cmake/Modules/FindFLAC.cmake:13 (find_library)"
+      - "lib/SFML/cmake/Macros.cmake:383 (find_package)"
+      - "lib/SFML/src/SFML/Audio/CMakeLists.txt:73 (sfml_find_package)"
+    mode: "library"
+    variable: "FLAC_LIBRARY"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "FLAC"
+    candidate_directories:
+      - "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/lib/SFML/extlibs/libs-msvc-universal/x64/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/hyder/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/hyder/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/hyder/.dotnet/tools/"
+      - "C:/Program Files/lib/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/lib/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/lib/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files/setup/lib/"
+      - "C:/Program Files/setup/"
+      - "C:/Program Files/setup/bin/"
+      - "/bin/"
+    found: "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/lib/SFML/extlibs/libs-msvc-universal/x64/flac.lib"
+    search_context:
+      CMAKE_LIBRARY_PATH:
+        - "C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/lib/SFML/extlibs/libs-msvc-universal/x64"
+      ENV{PATH}:
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\hyder\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\hyder\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\hyder\\.dotnet\\tools"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\hyder\\.dotnet\\tools"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files/setup"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files/setup"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "C:/Program Files/setup/bin"
+        - "C:/Program Files/CMake/bin"
+        - "/bin"
+...

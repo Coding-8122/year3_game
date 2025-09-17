@@ -1,0 +1,15 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/build/cmake_install.cmake",
+		"C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/build/lib/SFML/cmake_install.cmake",
+		"C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/build/lib/SFML/src/SFML/cmake_install.cmake",
+		"C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/build/lib/SFML/src/SFML/System/cmake_install.cmake",
+		"C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/build/lib/SFML/src/SFML/Main/cmake_install.cmake",
+		"C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/build/lib/SFML/src/SFML/Window/cmake_install.cmake",
+		"C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/build/lib/SFML/src/SFML/Network/cmake_install.cmake",
+		"C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/build/lib/SFML/src/SFML/Graphics/cmake_install.cmake",
+		"C:/Users/hyder/OneDrive - Edinburgh Napier University/Games Engineering/build/lib/SFML/src/SFML/Audio/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
