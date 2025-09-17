@@ -434,4 +434,45 @@ FodyWeavers.xsd
 ### VisualStudio Patch ###
 # Additional files built by Visual Studio
 
+# Build directories
+build/
+out/
+bin/
+lib/SFML/build/
+
+# CMake cache files
+CMakeCache.txt
+CMakeFiles/
+
+# Visual Studio files
+*.sln
+*.vcxproj
+*.vcxproj.*
+*.user
+*.filters
+
+# Compiled object files
+*.o
+*.obj
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.so
+*.dll
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Logs
+*.log
+
+# VS Code settings (optional, keep if you want)
+.vscode/
+
+
 # End of https://www.toptal.com/developers/gitignore/api/c++,visualstudio
